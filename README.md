@@ -15,7 +15,7 @@ This library of motifs was reported for the first time in protocol
 * Add new motifs to [./PWM.tab](PWM.tab). 
   - To convert MEME/HOMER motifs you can a one liner such as:
   
-    perl -ane 'next if(/^>/ || /^#/); $f++; for $c (1 .. @F){ $data[$f][$c]=$F[$c-1] }; $maxc=@F if(@F>$maxc); END{ for $c (1 .. $maxc){ for $ff (1 .. $f){ printf("%1.3f\t",$data[$ff][$c]) } print "\n"} }' MdDAM4-MdSVPa.meme
+      perl -ane 'next if(/^>/ || /^#/); $f++; for $c (1 .. @F){ $data[$f][$c]=$F[$c-1] }; $maxc=@F if(@F>$maxc); END{ for $c (1 .. $maxc){ for $ff (1 .. $f){ printf("%1.3f\t",$data[$ff][$c]) } print "\n"} }' MdDAM4-MdSVPa.meme
 
 * Add new papers to [./references.tab](references.tab)
   - Make sure first field matched a PWM name.
