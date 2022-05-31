@@ -12,7 +12,8 @@ This library of motifs was reported for the first time in protocol
 
 * Add new TFs to [TFsequences.faa](./TFsequences.faa)
   - Make sure 'FullName' has no blanks.
-* Add new motifs to [PWM.tab](./PWM.tab). 
+* Add new motifs to [PWM.tab](./PWM.tab).
+  - Make sure separators among weights/columns are TABs.
   - To convert MEME/HOMER motifs you can a one liner such as:
   
       $ perl -ane 'next if(/^>/ || /^#/); $f++; for $c (1 .. @F){ $data[$f][$c]=$F[$c-1] }; $maxc=@F if(@F>$maxc); END{ for $c (1 .. $maxc){ for $ff (1 .. $f){ printf("%1.3f\t",$data[$ff][$c]) } print "\n"} }' motif.meme
