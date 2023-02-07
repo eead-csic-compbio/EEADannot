@@ -2,7 +2,7 @@
 
 This repository holds the scripts and data files used for the manual curation of DNA motifs and cis regulatory sites, 
 mostly from plants, that are eventually added as a separate library 
-([EEADannot](https://floresta.eead.csic.es/footprintdb/index.php?database=28&type=motif&page=1)) 
+([EEADannot](https://floresta.eead.csic.es/footprintdb/index.php?database=25&type=motif&page=1)) 
 in the database 
 [footprintDB](https://floresta.eead.csic.es/footprintdb/index.php).
 This library of motifs was reported for the first time in protocol 
