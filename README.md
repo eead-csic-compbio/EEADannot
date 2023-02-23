@@ -5,7 +5,7 @@ mostly from plants, that are eventually added as a separate library/collection
 in the database 
 [footprintDB](https://floresta.eead.csic.es/footprintdb).
 
-Citation: 
+### Citation
 
 Contreras-Moreira B, Sebastian A. FootprintDB: Analysis of Plant Cis-Regulatory Elements, 
 Transcription Factors, and Binding Interfaces. Methods Mol Biol. 2016; 1482:259-77. 
