@@ -4,8 +4,12 @@ This repository holds the scripts and data files used for the manual curation of
 mostly from plants, that are eventually added as a separate library/collection  
 in the database 
 [footprintDB](https://floresta.eead.csic.es/footprintdb).
-This library of motifs was reported for the first time in protocol 
-[https://doi.org/10.1007/978-1-4939-6396-6_17](https://pubmed.ncbi.nlm.nih.gov/27557773).
+
+Citation: 
+
+Contreras-Moreira B, Sebastian A. FootprintDB: Analysis of Plant Cis-Regulatory Elements, 
+Transcription Factors, and Binding Interfaces. Methods Mol Biol. 2016; 1482:259-77. 
+doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17). PMID: [27557773](https://pubmed.ncbi.nlm.nih.gov/27557773).
 
 ### Example motif in TRANSFAC format
 
