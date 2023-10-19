@@ -140,7 +140,7 @@ while(<PWM>) {
 		
       $n_of_pwms++;
 			
-      print LIB "MO  EEADannot$n_of_pwms\n"; 
+      printf(LIB "MO  EEAD%04d\n",$n_of_pwms); 
       print LIB "NA  $motifname\n";
       print LIB "P0      A      C      G      T\n";
 			
@@ -149,7 +149,8 @@ while(<PWM>) {
         foreach $nt ('A','C','G','T'){ printf(LIB "%7s",$motif{$nt}[$p]) }
         print LIB "\n"; 
       }	
-  
+
+      my %seen_pubmed;  
       foreach $tfaccession (split(/,/,$tfaccs)) {
 
         if(!defined($pubmeds{$tfaccession}{$motifname})) {
@@ -157,8 +158,11 @@ while(<PWM>) {
         }
 
         foreach $p (0 .. scalar(@{$pubmeds{$tfaccession}{$motifname}})-1) {
+
+          next if(defined($seen_pubmed{ $pubmeds{$tfaccession}{$motifname}[$p] }));
           printf(LIB "RX  PUBMED:%s\n",$pubmeds{$tfaccession}{$motifname}[$p]);
           printf(LIB "RL  %s\n",$references{$tfaccession}{$motifname}[$p]);
+          $seen_pubmed{ $pubmeds{$tfaccession}{$motifname}[$p] }++;
         }	
       }
       print LIB "XX\n";
