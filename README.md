@@ -57,7 +57,7 @@ doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17
 * Add individual sites, if any, to [sites.tab](./sites.tab).
 
 * Add new papers to [references.tab](./references.tab)
-  - Make sure first field matched a PWM name.
+  - Make sure 1st field matches a motif name in PWM.tab.
   - Second field is one or more TF name/primary key separated by commas [,].
   - Third field is PubMed id.
 
