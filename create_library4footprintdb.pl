@@ -24,14 +24,16 @@ my $VERSION = $date; #'1.03';
 my $LIBRARYHEADER = <<EOH;
 VV  Name: EEADannot; Version: $VERSION; Date: $date; 
 VV  Authors: Contreras-Moreira B, Sebastian A.
-VV  Url: http://floresta.eead.csic.es/footprintdb; Email: compbio\@eead.csic.es
+VV  Url: https://footprintdb.eead.csic.es; Email: compbio\@eead.csic.es
 XX
 EOH
 
 ###################################################
 
-my (%TFsequence,@acc,%synonyms,%species,%family,%fullname,%sites,%pubmeds,%references,%seen);
-my ($tfaccession,$syns,$site,$pubmed,$reference,$nt,$bs,$p,$weights,$motifname,$pwm_width);
+my (%TFsequence,@acc,%synonyms,%species,%family);
+my (%fullname,%sites,%pubmeds,%references,%seen);
+my ($tfaccession,$tfaccs,$syns,$site,$pubmed,$reference);
+my ($nt,$bs,$p,$weights,$motifname,$pwm_width);
 
 my ($n_of_references,$n_of_sites,$n_of_pwms) = (0,0,0);
 
@@ -93,17 +95,20 @@ print "# read $n_of_sites sites\n";
 open(REFS,$REFSFILE) || die "# $0 : cannot read $REFSFILE\n"; 
 while(my $line = <REFS>) {
 
-  #Motif;Object;PubMed;FullReference
-  #EREBP1;Os02g54160.1  23703395  Serra TS, .. Saibo NJM (2013) OsRMC, a negative regulator .. Plant Mol Biol 82(4-5): 439-455
+  #Motif;TFnames;PubMed;FullReference
+  #EREBP1;Os02g54160.1;23703395;Serra TS(2013) OsRMC, a negative regulator. Plant Mol Biol 82(4-5): 439-455
 
   next if($line =~ /^$/ || $line =~ /^#/);
   chomp($line); 
   
-  ($motifname,$tfaccession,$pubmed,$reference) = split(/;/,$line,4);
+  ($motifname,$tfaccs,$pubmed,$reference) = split(/;/,$line,4);
   
-  push(@{$pubmeds{$tfaccession}{$motifname}},$pubmed);
-  push(@{$references{$tfaccession}{$motifname}},$reference);
-  $n_of_references++;
+  foreach $tfaccession (split(/,/,$tfaccs)) {
+
+    push(@{$pubmeds{$tfaccession}{$motifname}},$pubmed);
+    push(@{$references{$tfaccession}{$motifname}},$reference);
+    $n_of_references++;
+  }
 }
 close(REFS);  
 
@@ -135,8 +140,8 @@ while(<PWM>) {
 		
       $n_of_pwms++;
 			
-      print LIB "MO  $motifname\n"; 
-      print LIB "NA  $tfaccession\n";
+      print LIB "MO  EEADannot$n_of_pwms\n"; 
+      print LIB "NA  $motifname\n";
       print LIB "P0      A      C      G      T\n";
 			
       foreach $p (0 .. $pwm_width-1){
@@ -144,40 +149,66 @@ while(<PWM>) {
         foreach $nt ('A','C','G','T'){ printf(LIB "%7s",$motif{$nt}[$p]) }
         print LIB "\n"; 
       }	
-      
-      foreach $p (0 .. scalar(@{$pubmeds{$tfaccession}{$motifname}})-1) {
-        printf(LIB "RX  PUBMED:%s\n",$pubmeds{$tfaccession}{$motifname}[$p]);
-        printf(LIB "RL  %s\n",$references{$tfaccession}{$motifname}[$p]);
-      }	
+  
+      foreach $tfaccession (split(/,/,$tfaccs)) {
+
+        if(!defined($pubmeds{$tfaccession}{$motifname})) {
+          die "ERROR: cannot find PUBMED for TF:$tfaccession MOTIF:$motifname, exit\n";
+        }
+
+        foreach $p (0 .. scalar(@{$pubmeds{$tfaccession}{$motifname}})-1) {
+          printf(LIB "RX  PUBMED:%s\n",$pubmeds{$tfaccession}{$motifname}[$p]);
+          printf(LIB "RL  %s\n",$references{$tfaccession}{$motifname}[$p]);
+        }	
+      }
       print LIB "XX\n";
-	
-      print LIB "FA  $fullname{$tfaccession}\n" if($fullname{$tfaccession}); 
-      print LIB "NA  $synonyms{$tfaccession}\n" if($synonyms{$tfaccession});
-      print LIB "SQ  $TFsequence{$tfaccession}\n";
-      print LIB "OS  $species{$tfaccession}\n";
-      print LIB "CC  family:$family{$tfaccession}\n" if($family{$tfaccession});
-      print LIB "XX\n";
-      
-      if($sites{$tfaccession}{$motifname}) {
-        my $site_count = 1;
-        foreach $p (0 .. scalar(@{$sites{$tfaccession}{$motifname}})-1)	{
-  				printf(LIB "SI  %s_%d\n",$motifname,$site_count);
-          printf(LIB "SQ  %s\n",$sites{$tfaccession}{$motifname}[$p]);
-          print LIB "XX\n";
-          $site_count++;
-  	}	
+
+      foreach $tfaccession (split(/,/,$tfaccs)) {
+
+        if(!defined($fullname{$tfaccession})) {
+          die "ERROR: no FullName provided for TF:$tfaccession, exit\n";
+        }
+
+        print LIB "FA  $fullname{$tfaccession}\n"; 
+        print LIB "NA  $synonyms{$tfaccession}\n" if($synonyms{$tfaccession});
+
+        if(!defined($TFsequence{$tfaccession})) {
+          die "ERROR: not sequence provided for TF:$tfaccession, exit\n";
+        }
+
+        print LIB "SQ  $TFsequence{$tfaccession}\n";
+        print LIB "OS  $species{$tfaccession}\n";
+        print LIB "CC  family:$family{$tfaccession}\n" if($family{$tfaccession});
+        print LIB "XX\n";
       }
       
-      # close this repository entry  
+      foreach $tfaccession (split(/,/,$tfaccs)) {
+
+        if($sites{$tfaccession}{$motifname}) {
+          my $site_count = 1;
+          foreach $p (0 .. scalar(@{$sites{$tfaccession}{$motifname}})-1)	{
+            printf(LIB "SI  %s_%d\n",$motifname,$site_count);
+            printf(LIB "SQ  %s\n",$sites{$tfaccession}{$motifname}[$p]);
+            print LIB "XX\n";
+            $site_count++;
+  	  }	
+        }
+      }
+
+      # close this entry  
       print LIB "//\n";
     }	
   }
-  else	{
+  else	{ 
+    # EREBP1  Os02g54160.1
+    # EREBP1  Os02g54160.1,Os02g54165.1 -> 1+ TFs might bind the same motif
     %motif = ();
-    ($motifname,$tfaccession) = (split)[0,1];
+    ($motifname,$tfaccs) = (split)[0,1];
+
     if($seen{$motifname}) {
-      die "# $0 : motif $motifname found twice in $PWMFILE, exit\n";
+      die "# ERROR: motif $motifname found twice in $PWMFILE, exit\n";
     }
+
     $seen{$motifname}=1;
   }
 }	

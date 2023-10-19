@@ -24,13 +24,13 @@ doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17
     06   0.00   0.50   0.50   0.00
     07   0.00   1.00   0.00   0.00
     RX  PUBMED:23703395
-    RL  Serra TS, Figueiredo DD, Cordeiro AM, Almeida DM, Lourenco T, Abreu IA, Sebastian A, Fernandes L, Contreras-Moreira B,Oliveira MM, Saibo NJM (2013) OsRMC, a negative regulator of salt stress response in rice, is regulated by two AP2/ERF transcription factors. Plant Mol Biol 82(4-5): 439-455
+    RL  Serra TS et al (2013) OsRMC, a negative regulator of salt stress response in rice...Plant Mol Biol 82(4-5): 439-455
     RX  PUBMED:12913152
-    RL  Cheong YH, Moon BC, Kim JK, Kim CY, Kim MC, Kim IH, Park CY, Kim JC, Park BO, Koo SC, Yoon HW, Chung WS, Lim CO, Lee SY, Cho MJ (2003) BWMK1, a rice mitogen-activated protein kinase, locates in the nucleus and mediates pathogenesis-related gene expression by activation of a transcription factor. Plant Physiol 132(4):1961-72
+    RL  Cheong YH et al (2003) BWMK1, a rice mitogen-activated protein kinase... Plant Physiol 132(4):1961-72
     XX
     FA  EREBP1
     NA  Ethylene-responsive transcription factor 1; EREBP1; OsEREBP1; ERF1_ORYSJ; Q6K7E6; Q9SE28
-    SQ  MCGGAIIHHLKGHPEGSRRATEGLLWPEKKKPRWGGGGRRHFGGFVEEDDEDFEADFEEFEVDSGDSDLELGEEDDDDVVEIKPAAFKRALSRDNLSTITTAGFDGPAAKSAKRKRKNQFRGIRQRPWGKWAAEIRDPRKGVRVWLGTFNSAEEAARAYDAEARRIRGKKAKVNFPEAPTTAQKRRAGSTTAKAPKSSVEQKPTVKPAFNNLANANAFVYPSANFTSNKPFVQPDNMPFVPAMNSAAPIEDPIINSDQGSNSFGCSDFGWENDTKTPDITSIAPISTIAEVDESAFIKSSTNPMVPPVMENSAVDLPDLEPYMRFLLDDGAGDSIDSLLNLDGSQDVVSNMDLWSFDDMPVSDFY*
+    SQ  MCGGAIIHHLKGHPEGSRRATEGLLWPEKKKPRWGGGGRRHFGGFVEEDDEDFEADFEEFEVDSGDSDLELGEEDDDDVVEI...
     OS  Oryza sativa
     CC  family:AP2/ERF
     XX
@@ -48,19 +48,19 @@ doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17
   - Make sure 'FullName' has no blanks.
 
 * Add new motifs to [PWM.tab](./PWM.tab).
+  - In name line, 1st word is motif name [no spaces], 2nd is 1+ TF names separated by commas [,].
   - Make sure separators among weights/columns are TABs.
-  - To convert MEME/HOMER motifs you can a one liner such as:
+  - To convert MEME/HOMER motifs you can use a one liner such as:
   
-      $ perl -ane 'next if(/^>/ || /^#/); $f++; for $c (1 .. @F){ $data[$f][$c]=$F[$c-1] }; $maxc=@F if(@F>$maxc); END{ for $c (1 .. $maxc){ for $ff (1 .. $f){ printf("%1.3f\t",$data[$ff][$c]) } print "\n"} }' motif.meme
+      perl -ane 'next if(/^>/ || /^#/); $f++; for $c (1 .. @F){ $data[$f][$c]=$F[$c-1] }; $maxc=@F if(@F>$maxc); END{ for $c (1 .. $maxc){ for $ff (1 .. $f){ printf("%1.3f\t",$data[$ff][$c]) } print "\n"} }' motif.meme
 
 * Add individual sites, if any, to [sites.tab](./sites.tab).
 
 * Add new papers to [references.tab](./references.tab)
   - Make sure first field matched a PWM name.
-  - Second field is a TF name/primary key.
+  - Second field is one or more TF name/primary key separated by commas [,].
   - Third field is PubMed id.
 
 * Actually format the library in footprintDB format:
 
     $ perl create_library4footprintdb.pl
-
