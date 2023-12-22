@@ -1,9 +1,9 @@
-VV  Name: EEADannot; Version: 2023-02-22; Date: 2023-02-22; 
+VV  Name: EEADannot; Version: 2023-12-22; Date: 2023-12-22; 
 VV  Authors: Contreras-Moreira B, Sebastian A.
-VV  Url: http://floresta.eead.csic.es/footprintdb; Email: compbio@eead.csic.es
+VV  Url: https://footprintdb.eead.csic.es; Email: compbio@eead.csic.es
 XX
-MO  EREBP1
-NA  Os02g54160.1
+MO  EEAD0001
+NA  EREBP1
 P0      A      C      G      T
 01   1.00   0.00   0.00   0.00
 02   0.00   0.00   1.00   0.00
@@ -30,8 +30,8 @@ SI  EREBP1_2
 SQ  gAGCAGGCa
 XX
 //
-MO  EREBP2
-NA  Os01g64790.1
+MO  EEAD0002
+NA  EREBP2
 P0      A      C      G      T
 01   1.00   0.00   0.00   0.00
 02   0.00   0.00   1.00   0.00
@@ -56,8 +56,8 @@ SI  EREBP2_2
 SQ  gAGCAGGCa
 XX
 //
-MO  NAC
-NA  AT3G12910.1
+MO  EEAD0003
+NA  NAC
 P0      A      C      G      T
 01   0.00   0.00   0.00   1.00
 02   0.00   1.00   0.00   0.00
@@ -86,8 +86,8 @@ SI  NAC_2
 SQ  TCTCCTCCAC
 XX
 //
-MO  MYB31
-NA  AT1G74650.1
+MO  EEAD0004
+NA  MYB31
 P0      A      C      G      T
 01   0.50   0.50   0.00   0.00
 02   0.00   0.50   0.00   0.50
@@ -116,8 +116,8 @@ SI  MYB31_2
 SQ  accacAACCACCacaacc
 XX
 //
-MO  LEAFY
-NA  AT5G61850.1
+MO  EEAD0005
+NA  LEAFY
 P0      A      C      G      T
 01    116     57     55    144
 02    111     26    128    107
@@ -148,8 +148,8 @@ OS  Arabidopsis thaliana
 CC  family:Floricaula/leafy
 XX
 //
-MO  VRN1
-NA  AY750993
+MO  EEAD0006
+NA  VRN1
 P0      A      C      G      T
 01  0.186  0.715  0.070  0.027
 02  0.101  0.706  0.075  0.116
@@ -171,8 +171,8 @@ OS  Hordeum vulgare cv Strider
 CC  family:MADS-box
 XX
 //
-MO  CONS1
-NA  CONS_ARATH
+MO  EEAD0007
+NA  CONS1
 P0      A      C      G      T
 01   0.00   0.00   0.00   1.00
 02   0.00   0.00   1.00   0.00
@@ -196,8 +196,8 @@ SI  CONS1_1
 SQ  TGTGtgATG
 XX
 //
-MO  CONS2
-NA  CONS_ARATH
+MO  EEAD0008
+NA  CONS2
 P0      A      C      G      T
 01   0.00   0.00   0.00   1.00
 02   0.00   0.00   1.00   0.00
@@ -222,7 +222,7 @@ SI  CONS2_1
 SQ  TGTGgttATG
 XX
 //
-MO  FOXJ3
+MO  EEAD0009
 NA  FOXJ3
 P0      A      C      G      T
 01  0.138   0.36  0.212   0.29
@@ -245,7 +245,7 @@ OS  Homo sapiens
 CC  family:Forkhead
 XX
 //
-MO  FOXK2
+MO  EEAD0010
 NA  FOXK2
 P0      A      C      G      T
 01  0.094  0.387  0.327  0.192
@@ -268,7 +268,7 @@ OS  Homo sapiens
 CC  family:Forkhead
 XX
 //
-MO  FOXO3
+MO  EEAD0011
 NA  FOXO3
 P0      A      C      G      T
 01  0.084  0.005  0.908  0.003
@@ -291,8 +291,8 @@ OS  Homo sapiens
 CC  family:Forkhead
 XX
 //
-MO  ORE
-NA  unknownFh
+MO  EEAD0012
+NA  ORE
 P0      A      C      G      T
 01   0.00   0.50   0.50   0.00
 02   0.00   0.00   1.00   0.00
@@ -318,7 +318,7 @@ SI  ORE_2
 SQ  cGGAAAAGta
 XX
 //
-MO  StCONSTANSlike1
+MO  EEAD0013
 NA  StCONSTANSlike1
 P0      A      C      G      T
 01      0      0      1      5
@@ -356,8 +356,8 @@ SI  StCONSTANSlike1_6
 SQ  TTGTGGTC
 XX
 //
-MO  NF_CO
-NA  CONS_ARATH
+MO  EEAD0014
+NA  NF_CO
 P0      A      C      G      T
 01 0.4545 0.1772 0.2068 0.1613
 02 0.4494 0.1460 0.2202 0.1842
@@ -377,7 +377,7 @@ OS  Arabidopsis thaliana
 CC  family:CONSTANS-like
 XX
 //
-MO  BdTHX1
+MO  EEAD0015
 NA  BdTHX1
 P0      A      C      G      T
 01  0.112  0.265  0.102  0.520
@@ -400,8 +400,8 @@ OS  Brachypodium distachyon
 CC  family:Trihelix
 XX
 //
-MO  GRF4
-NA  GRF4_ORYSJ
+MO  EEAD0016
+NA  GRF4
 P0      A      C      G      T
 01     98    445    132    121
 02     85    463    137    111
@@ -424,8 +424,8 @@ SQ  MAMPYASLSPAVADHRSSPAAATASLLPFCRSTPLSAGGGGVAMGEDAPMTARWPPAAAARLPPFTAAQYEELEQQ
 OS  Oryza sativa
 XX
 //
-MO  NGA1
-NA  C3VMM2_ARATH
+MO  EEAD0017
+NA  NGA1
 P0      A      C      G      T
 01      0      1      0      0
 02      1      0      0      0
@@ -446,8 +446,8 @@ SI  NGA1_1
 SQ  CACTTG
 XX
 //
-MO  O2DREME
-NA  B4FHZ3_MAIZE
+MO  EEAD0018
+NA  O2DREME
 P0      A      C      G      T
 01   0.00   1.00   0.00   0.00
 02   0.00   1.00   0.00   0.00
@@ -466,8 +466,8 @@ SQ  MEHVISMEEILGPFWELLPPPAPEPEPEREQPPVTGIVVGSVIDVAAAGHGHGGGDMMDQQHATEWTFERLLEEEA
 OS  Zea mays
 XX
 //
-MO  O2MEME
-NA  B4FHZ3_MAIZE
+MO  EEAD0019
+NA  O2MEME
 P0      A      C      G      T
 01   0.00   1.00   0.00   0.00
 02   0.00   1.00   0.00   0.00
@@ -488,8 +488,8 @@ SQ  MEHVISMEEILGPFWELLPPPAPEPEPEREQPPVTGIVVGSVIDVAAAGHGHGGGDMMDQQHATEWTFERLLEEEA
 OS  Zea mays
 XX
 //
-MO  PHE1SVP
-NA  PHE1_ARATH
+MO  EEAD0020
+NA  PHE1SVP
 P0      A      C      G      T
 01  0.105  0.038  0.001  0.856
 02  0.001  0.001  0.001  0.997
@@ -511,8 +511,8 @@ OS  Arabidopsis thaliana
 CC  family:MADS-box
 XX
 //
-MO  PHE1MADS
-NA  PHE1_ARATH
+MO  EEAD0021
+NA  PHE1MADS
 P0      A      C      G      T
 01  0.096  0.715  0.080  0.109
 02  0.073  0.688  0.022  0.217
@@ -534,8 +534,8 @@ OS  Arabidopsis thaliana
 CC  family:MADS-box
 XX
 //
-MO  ZmNAC128
-NA  A0A060D1R6_MAIZE
+MO  EEAD0022
+NA  ZmNAC128
 P0      A      C      G      T
 01      2      0      0      0
 02      0      2      0      0
@@ -553,8 +553,8 @@ OS  Zea mays
 CC  family:NAC
 XX
 //
-MO  ARF4
-NA  A0A1D6DUR0_MAIZE
+MO  EEAD0023
+NA  ARF4
 P0      A      C      G      T
 01      0      0      0   4649
 02     18     15   4599     18
@@ -571,8 +571,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF4_DYAD0
-NA  A0A1D6DUR0_MAIZE
+MO  EEAD0024
+NA  ARF4_DYAD0
 P0      A      C      G      T
 01    950    569    589    350
 02    982    359    735    382
@@ -594,8 +594,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF7
-NA  D9HNT4_MAIZE
+MO  EEAD0025
+NA  ARF7
 P0      A      C      G      T
 01     53    955    242   2335
 02     28     78   3429     50
@@ -613,8 +613,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF10
-NA  A0A1D6N2H0_MAIZE
+MO  EEAD0026
+NA  ARF10
 P0      A      C      G      T
 01    290    153   1981    110
 02    126    144   2172     91
@@ -634,8 +634,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF13
-NA  K7U085_MAIZE
+MO  EEAD0027
+NA  ARF13
 P0      A      C      G      T
 01    153     47   2552     41
 02     67     47   2659     21
@@ -657,8 +657,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF14
-NA  C4JAZ4_MAIZE
+MO  EEAD0028
+NA  ARF14
 P0      A      C      G      T
 01    196    133   1205    127
 02      0      0   1659      0
@@ -678,8 +678,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF18
-NA  A0A1D6GSS0_MAIZE
+MO  EEAD0029
+NA  ARF18
 P0      A      C      G      T
 01    179   3178    162    327
 02   1431   2414      0      0
@@ -697,8 +697,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF18_DYAD6
-NA  A0A1D6GSS0_MAIZE
+MO  EEAD0030
+NA  ARF18_DYAD6
 P0      A      C      G      T
 01     63    139     56     45
 02    378    339    170     75
@@ -728,8 +728,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF18_DYAD7
-NA  A0A1D6GSS0_MAIZE
+MO  EEAD0031
+NA  ARF18_DYAD7
 P0      A      C      G      T
 01    367    152    100     36
 02    183     58    369     45
@@ -759,8 +759,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF18_DYAD13
-NA  A0A1D6GSS0_MAIZE
+MO  EEAD0032
+NA  ARF18_DYAD13
 P0      A      C      G      T
 01     52    135     81     56
 02    270    321    179    104
@@ -797,8 +797,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF25
-NA  C0PH36_MAIZE
+MO  EEAD0033
+NA  ARF25
 P0      A      C      G      T
 01    285    159   2019    168
 02    111    126   2250    144
@@ -818,8 +818,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF27
-NA  D9HNV4_MAIZE
+MO  EEAD0034
+NA  ARF27
 P0      A      C      G      T
 01    298   2831    358    388
 02    977   2898      0      0
@@ -837,8 +837,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF29
-NA  A0A1D6JH51_MAIZE
+MO  EEAD0035
+NA  ARF29
 P0      A      C      G      T
 01      1      1     74   4367
 02      0      0   4442      0
@@ -856,8 +856,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF34
-NA  A0A060D7X7_MAIZE
+MO  EEAD0036
+NA  ARF34
 P0      A      C      G      T
 01   2916   1126    328    156
 02      0      0   4525      0
@@ -874,8 +874,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF34_DYAD3
-NA  A0A060D7X7_MAIZE
+MO  EEAD0037
+NA  ARF34_DYAD3
 P0      A      C      G      T
 01   3550   2107   2349    900
 02   3272    674   4207    753
@@ -900,8 +900,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF35
-NA  A0A1D6GVF5_MAIZE
+MO  EEAD0038
+NA  ARF35
 P0      A      C      G      T
 01      0      0    471   3932
 02      0      0   4403      0
@@ -919,8 +919,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF36
-NA  C0PAG5_MAIZE
+MO  EEAD0039
+NA  ARF36
 P0      A      C      G      T
 01    236   1216    194    292
 02    250    106   1481    100
@@ -941,8 +941,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF36_DYAD11
-NA  C0PAG5_MAIZE
+MO  EEAD0040
+NA  ARF36_DYAD11
 P0      A      C      G      T
 01    706    754    591    345
 02    895    374    901    226
@@ -975,8 +975,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF39
-NA  A0A1D6E9Y1_MAIZE
+MO  EEAD0041
+NA  ARF39
 P0      A      C      G      T
 01      0      0   2594      0
 02    136      0   2458      0
@@ -995,8 +995,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF39_DYAD11
-NA  A0A1D6E9Y1_MAIZE
+MO  EEAD0042
+NA  ARF39_DYAD11
 P0      A      C      G      T
 01    306    206    172    278
 02     15     32     53    862
@@ -1030,8 +1030,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  ARF39_DYAD12
-NA  A0A1D6E9Y1_MAIZE
+MO  EEAD0043
+NA  ARF39_DYAD12
 P0      A      C      G      T
 01     12    433     50   1383
 02      0      0   1878      0
@@ -1065,8 +1065,8 @@ OS  Zea mays
 CC  family:ARF
 XX
 //
-MO  TB1
-NA  A0A1D6L1J8_MAIZE
+MO  EEAD0044
+NA  TB1
 P0      A      C      G      T
 01      0      0    100      0
 02      0      0    100      0
@@ -1084,8 +1084,8 @@ OS  Zea mays
 CC  family:TCP
 XX
 //
-MO  MYB3R3
-NA  MB3R3_ARATH
+MO  EEAD0045
+NA  MYB3R3
 P0      A      C      G      T
 01     32     11      5     20
 02     18     22     15     13
@@ -1110,8 +1110,8 @@ SQ  MSSTFNPAASSPDEEETGEVKIEDQCVENKQSTPASCSSVSEGSAGSSHKSPTIASPATVSPTHRYLGRTSGPIRR
 OS  Arabidopsis thaliana
 XX
 //
-MO  IDE
-NA  IDEF1_ORYSJ
+MO  EEAD0046
+NA  IDE
 P0      A      C      G      T
 01      5      3      0      4
 02      0      0      9      3
@@ -1132,8 +1132,8 @@ OS  Oryza sativa
 CC  family:B3
 XX
 //
-MO  TCP2
-NA  TCP2_ARATH
+MO  EEAD0047
+NA  TCP2
 P0      A      C      G      T
 01      5      3      6      6
 02      0      0     14      6
@@ -1157,8 +1157,8 @@ OS  Arabidopsis thaliana
 CC  family:TCP
 XX
 //
-MO  WRKY71
-NA  WRK71_ARATH
+MO  EEAD0048
+NA  WRKY71
 P0      A      C      G      T
 01  0.066  0.000  0.000  0.934
 02  0.000  0.000  1.000  0.000
@@ -1177,8 +1177,8 @@ OS  Arabidopsis thaliana
 CC  family:WRKY
 XX
 //
-MO  MdDAM1-MdSVPa-1
-NA  MdDAM1
+MO  EEAD0049
+NA  MdDAM1-MdSVPa-1
 P0      A      C      G      T
 01  0.900  0.000  0.083  0.017
 02  0.350  0.000  0.000  0.650
@@ -1205,8 +1205,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  MdDAM1-MdSVPa-2
-NA  MdDAM1
+MO  EEAD0050
+NA  MdDAM1-MdSVPa-2
 P0      A      C      G      T
 01  0.000  0.000  0.000  1.000
 02  1.000  0.000  0.000  0.000
@@ -1233,8 +1233,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  MdDAM4-MdSVPa
-NA  MdDAM4
+MO  EEAD0051
+NA  MdDAM4-MdSVPa
 P0      A      C      G      T
 01  0.990  0.010  0.000  0.000
 02  1.000  0.000  0.000  0.000
@@ -1261,8 +1261,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  MdFLC-MdSVPa-1
-NA  MdFLC-like
+MO  EEAD0052
+NA  MdFLC-MdSVPa-1
 P0      A      C      G      T
 01  0.000  0.289  0.002  0.709
 02  1.000  0.000  0.000  0.000
@@ -1285,8 +1285,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  MdFLC-MdSVPa-2
-NA  MdFLC-like
+MO  EEAD0053
+NA  MdFLC-MdSVPa-2
 P0      A      C      G      T
 01  1.000  0.000  0.000  0.000
 02  0.000  0.000  0.000  1.000
@@ -1313,8 +1313,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  MdSVPa-MdSVPa-1
-NA  MdSVPa
+MO  EEAD0054
+NA  MdSVPa-MdSVPa-1
 P0      A      C      G      T
 01  0.000  0.000  0.000  1.000
 02  0.000  0.553  0.000  0.447
@@ -1338,8 +1338,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  MdSVPa-MdSVPa-2
-NA  MdSVPa
+MO  EEAD0055
+NA  MdSVPa-MdSVPa-2
 P0      A      C      G      T
 01  0.081  0.871  0.000  0.048
 02  0.000  0.927  0.000  0.073
@@ -1366,8 +1366,8 @@ OS  Malus x domestica
 CC  family:MADS-box
 XX
 //
-MO  AtDUO1
-NA  DUO1_ARATH
+MO  EEAD0056
+NA  AtDUO1
 P0      A      C      G      T
 01  0.442  0.003  0.533  0.022
 02  0.675  0.003  0.316  0.006
@@ -1387,8 +1387,8 @@ OS  Arabidopsis thaliana
 CC  family:MYB
 XX
 //
-MO  SlBES1.8
-NA  A0A3Q7IIT4_SOLLC
+MO  EEAD0057
+NA  SlBES1.8
 P0      A      C      G      T
 01      0      0      0      5
 02      5      0      0      0
@@ -1403,8 +1403,8 @@ SQ  MGEDKKISGVRGCIKTSRGPWLVHRTAKDGSVVTRFRYPSDRERQKNKQREKNRRRVAHKIFAGLRAHGNYKLPKH
 OS  Solanum lycopersicum
 XX
 //
-MO  DcWRKY75
-NA  Q9M4R5_DIACA
+MO  EEAD0058
+NA  DcWRKY75
 P0      A      C      G      T
 01  0.833  0.000  0.000  0.167
 02  0.000  0.000  1.000  0.000
@@ -1441,8 +1441,8 @@ SI  DcWRKY75_6
 SQ  AAGTATGTG
 XX
 //
-MO  CLSY3
-NA  CLSY3_ARATH
+MO  EEAD0059
+NA  CLSY3
 P0      A      C      G      T
 01  0.001  0.001  0.001  0.997
 02  0.001  0.001  0.001  0.997
@@ -1472,8 +1472,8 @@ OS  Arabidopsis thaliana
 CC  family:CLASSY
 XX
 //
-MO  HB21
-NA  VfHB21
+MO  EEAD0060
+NA  HB21
 P0      A      C      G      T
 01      0      1      0      2
 02      3      0      0      0
@@ -1494,8 +1494,8 @@ OS  Vernicia fordii
 CC  family:HD-ZIP
 XX
 //
-MO  TZP1
-NA  Q9FIX7_ARATH
+MO  EEAD0061
+NA  TZP1
 P0      A      C      G      T
 01  0.027  0.034  0.834  0.105
 02  0.346  0.558  0.018  0.078
@@ -1514,8 +1514,8 @@ SQ  MGDGDEQSKELGGVSSSSRRCSSGTAGAANAEARMKFAAVDAITELVWSPSNGLSLRCADISFTGKAKLLSPNFFD
 OS  Arabidopsis thaliana
 XX
 //
-MO  TZP2
-NA  Q9FIX7_ARATH
+MO  EEAD0062
+NA  TZP2
 P0      A      C      G      T
 01  0.286  0.216  0.200  0.298
 02  0.277  0.210  0.183  0.331
@@ -1541,8 +1541,8 @@ SQ  MGDGDEQSKELGGVSSSSRRCSSGTAGAANAEARMKFAAVDAITELVWSPSNGLSLRCADISFTGKAKLLSPNFFD
 OS  Arabidopsis thaliana
 XX
 //
-MO  ZFHD10-1
-NA  ZHD10_ARATH
+MO  EEAD0063
+NA  ZFHD10-1
 P0      A      C      G      T
 01  0.286  0.216  0.200  0.298
 02  0.277  0.210  0.183  0.331
@@ -1569,8 +1569,8 @@ OS  Arabidopsis thaliana
 CC  family:ZHD
 XX
 //
-MO  ZFHD10-2
-NA  ZHD10_ARATH
+MO  EEAD0064
+NA  ZFHD10-2
 P0      A      C      G      T
 01  0.027  0.034  0.834  0.105
 02  0.346  0.558  0.018  0.078
@@ -1590,8 +1590,8 @@ OS  Arabidopsis thaliana
 CC  family:ZHD
 XX
 //
-MO  ZFHD10-3
-NA  ZHD10_ARATH
+MO  EEAD0065
+NA  ZFHD10-3
 P0      A      C      G      T
 01  0.100  0.001  0.001  0.898
 02  0.898  0.001  0.001  0.100
@@ -1613,8 +1613,8 @@ OS  Arabidopsis thaliana
 CC  family:ZHD
 XX
 //
-MO  AN1
-NA  Q0JDZ1_ORYSJ
+MO  EEAD0066
+NA  AN1
 P0      A      C      G      T
 01  0.000  0.000  1.000  0.000
 02  0.000  1.000  0.000  0.000
@@ -1634,8 +1634,8 @@ OS  Oryza sativa
 CC  family:bHLH
 XX
 //
-MO  APETALA2a
-NA  B2ZP48_SOLLC
+MO  EEAD0067
+NA  APETALA2a
 P0      A      C      G      T
 01      1      0      0      0
 02      1      0      0      0
@@ -1653,8 +1653,8 @@ OS  Solanum lycopersicum
 CC  family:AP2/ERF
 XX
 //
-MO  AuxRE
-NA  ARFR_ORYSJ
+MO  EEAD0068
+NA  AuxRE
 P0      A      C      G      T
 01      0      0      0      2
 02      0      0      2      0
@@ -1672,8 +1672,8 @@ OS  Oryza sativa subsp. japonica
 CC  family:ARF
 XX
 //
-MO  SuRE
-NA  ARFR_ORYSJ
+MO  EEAD0069
+NA  SuRE
 P0      A      C      G      T
 01      0      0      1      0
 02      0      0      0      1
@@ -1690,8 +1690,8 @@ OS  Oryza sativa subsp. japonica
 CC  family:ARF
 XX
 //
-MO  BZR1
-NA  BZR1_ARATH
+MO  EEAD0070
+NA  BZR1
 P0      A      C      G      T
 01     42    468     45    164
 02    376     60    271     12
@@ -1713,8 +1713,8 @@ OS  Arabidopsis thaliana
 CC  family:BZR
 XX
 //
-MO  bZIP65
-NA  A3BSC5_ORYSJ
+MO  EEAD0071
+NA  bZIP65
 P0      A      C      G      T
 01      0      0      0      1
 02      1      0      0      0
@@ -1732,8 +1732,8 @@ OS  Oryza sativa
 CC  family:bZIP
 XX
 //
-MO  CmMAF2
-NA  QPF20772
+MO  EEAD0072
+NA  CmMAF2
 P0      A      C      G      T
 01      0      3      0      0
 02      1      0      0      2
@@ -1755,8 +1755,8 @@ OS  Chrysanthemum x morifolium
 CC  family:MADS-box
 XX
 //
-MO  CmWIP1
-NA  CMiso1.1chr05g0123221
+MO  EEAD0073
+NA  CmWIP1
 P0      A      C      G      T
 01   2225   1313   1456   1935
 02   2109   1044    904   2872
@@ -1781,8 +1781,8 @@ OS  Cucumis melo
 CC  family:WIP
 XX
 //
-MO  OsLUX1
-NA  PCL1_ORYSJ
+MO  EEAD0074
+NA  OsLUX1
 P0      A      C      G      T
 01  0.038  0.596  0.078  0.288
 02  0.184  0.175  0.001  0.640
@@ -1804,8 +1804,8 @@ OS  Oryza sativa
 CC  family:LUX/BOA-like
 XX
 //
-MO  OsLUX2
-NA  PCL1_ORYSJ
+MO  EEAD0075
+NA  OsLUX2
 P0      A      C      G      T
 01  0.332  0.031  0.003  0.634
 02  0.004  0.138  0.001  0.857
@@ -1827,8 +1827,8 @@ OS  Oryza sativa
 CC  family:LUX/BOA-like
 XX
 //
-MO  CURE3UTR1
-NA  B8A6Y2_ORYSI
+MO  EEAD0076
+NA  CURE3UTR1
 P0      A      C      G      T
 01      0      0      0      5
 02      0      5      0      0
@@ -1850,8 +1850,8 @@ OS  Oryza sativa
 CC  family:polypyrimidine tract-binding
 XX
 //
-MO  CURE3UTR2
-NA  B8AYK8_ORYSI
+MO  EEAD0077
+NA  CURE3UTR2
 P0      A      C      G      T
 01      0      0      0      5
 02      0      5      0      0
@@ -1873,8 +1873,8 @@ OS  Oryza sativa
 CC  family:polypyrimidine tract-binding
 XX
 //
-MO  CORE
-NA  CONS_ARATH
+MO  EEAD0078
+NA  CORE
 P0      A      C      G      T
 01      0      0      0      2
 02      0      2      0      0
@@ -1891,8 +1891,8 @@ OS  Arabidopsis thaliana
 CC  family:CONSTANS-like
 XX
 //
-MO  WBOXPdePHT19p
-NA  PdeWRKY6
+MO  EEAD0079
+NA  WBOXPdePHT19p
 P0      A      C      G      T
 01      3      0      0      0
 02      0      0      3      0
@@ -1908,8 +1908,8 @@ OS  Populus deltoidesxPopulus euramericana
 CC  family:WRKY
 XX
 //
-MO  WBOXPdePHT19n
-NA  PdeWRKY65
+MO  EEAD0080
+NA  WBOXPdePHT19n
 P0      A      C      G      T
 01      3      0      0      0
 02      0      0      3      0
@@ -1925,8 +1925,8 @@ OS  Populus deltoidesxPopulus euramericana
 CC  family:WRKY
 XX
 //
-MO  CRL1BOX
-NA  LBD_ORYSJ
+MO  EEAD0081
+NA  CRL1BOX
 P0      A      C      G      T
 01      7     79     14      0
 02     93      7      0      0
@@ -1944,8 +1944,8 @@ OS  Oryza sativa
 CC  family:ASL/LBD
 XX
 //
-MO  OsbZIP49
-NA  TGAL8_ORYSJ
+MO  EEAD0082
+NA  OsbZIP49
 P0      A      C      G      T
 01      0      0      0      2
 02      0      0      2      0
@@ -1962,8 +1962,8 @@ OS  Oryza sativa
 CC  family:bZIP
 XX
 //
-MO  NACRS
-NA  B6D1Q3_SOLLC
+MO  EEAD0083
+NA  NACRS
 P0      A      C      G      T
 01      0      0      0      2
 02      0      0      2      0
@@ -1983,8 +1983,8 @@ OS  Solanum lycopersicum
 CC  family:NAM
 XX
 //
-MO  SOC1
-NA  TCP7_ARATH
+MO  EEAD0084
+NA  SOC1
 P0      A      C      G      T
 01      0      0      4      0
 02      0      0      4      0
@@ -2002,8 +2002,8 @@ OS  Arabidopsis thaliana
 CC  family:TCP
 XX
 //
-MO  ACGT
-NA  A0A3B5Y3P1_WHEAT
+MO  EEAD0085
+NA  ACGT
 P0      A      C      G      T
 01      1      6      1      2
 02     10      0      0      0
@@ -2021,8 +2021,8 @@ OS  Triticum aestivum
 CC  family:bZIP
 XX
 //
-MO  TTGACtandem
-NA  Q7Y0Z7_SOLLC
+MO  EEAD0086
+NA  TTGACtandem
 P0      A      C      G      T
 01      0      0      0      2
 02      0      0      0      2
@@ -2037,5 +2037,1631 @@ NA  Solyc06g074120
 SQ  MYYQGTSDNNIQADHHQQQHNNLGNSNNNIQTLYLMNPNSYMQGYTTTDTQQHLQQQQNQHQLLFLNSAPAGGNALSHANIQHAPLQQQHFVGVPLPAVSLHDQINHHGLLQRMWNNQDQSQQVIVPSSTVVSATSCGGTTTDLASQLAFQRPIVVSPTPQHRQQQQQQGGLSLSLSPQQQQQISFNNNISSSSPRTNNVTIRGTMDGCSSNMILGSKYLKAAQELLDEVVNIVGKSNKGDDQKKDNSMNKELIPLVSDVNTNSSGGGGGESSSRQKNEVAIELTTAQRQELQMKKAKLLAMLEEVEQRYRQYHHQMQIIVSSFEQVAGVGSAKSYTQLALHAISKQFRCLKDAISEQVKATSKSLGEDEGLGGKIEGSRLKFVDHHLRQQRALQQLGMMQPNAWRPQRGLPERAVSVLRAWLFEHFLHPYPKDSDKIMLAKQTGLTRSQVSNWFINARVRLWKPMVEEMYLEEVKNQEQNSSNTSGDNKNKETNISAPNEEKQPIITSSLLQDGTTQAEISTSTISTSPTAGASLHHAHNFSFLGSFNMENTTTTVDHIENNAKKPRNHDMHKFSPSSILSSVEMEAKARESTNKGFTNPLMAAYAMGDFGRFDPHDQQMTANFHGNNGVSLTLGLPPSENLAMPVSQQNYLSNELGSRPEIGSHYNRMGYENIDFQSGNKRFPTQLLPDFVTGNLGT
 OS  Solanum lycopersicum
 CC  family:TALE/BELL
+XX
+//
+MO  EEAD0087
+NA  MBS
+P0      A      C      G      T
+01      0      1      0      0
+02      1      0      0      0
+03      1      0      0      0
+04      0      1      0      0
+05      0      0      0      1
+06      0      0      1      0
+RX  PUBMED:35522008
+RL  Jiang H, Zhou LJ, Gao HN et al (2022) The transcription factor MdMYB2 influences cold tolerance and anthocyanin accumulation by activating SUMO E3 ligase MdSIZ1 in apple. Plant Physiology 189(4):2044-2060. doi: 10.1093/plphys/kiac211
+XX
+FA  MD17G1279200
+NA  MdMYB2
+SQ  MDINNVHDQMRSARYGSLAAAATHDQPIEGLDLRKGPWTAEEDSILNDYVNIHGEGRWNSLACHAGLKRTGKSCRLRWLNYLRPNVQRGNITLQEQLIILQLHSRWGNRWSKIAEYLPGRTDNEIKNYWRTRVQKQAKQLKCDVNSKQFQDAMRYVWIPRLIERIGSLPEAVPEQPSTCITTTSESECQYLVDPNFVPETSCSTSSESYDQVQVCSIPADPTSSGDEFMTYPSSGQYGSENGSGCSQNGINSDIDGFEQSNYWSTGGDTSVENLWTEENIWFLQQQLSDD
+OS  Malus x domestica
+CC  family:R2R3-MYB
+XX
+SI  MBS_1
+SQ  gaaCAACTGaaa
+XX
+//
+MO  EEAD0088
+NA  ODO1motif1B
+P0      A      C      G      T
+01      0     48      0      2
+02     35     15      0      0
+03      7     43      0      0
+04      0     50      0      0
+05     22      4      0     24
+06     31     10      0      9
+07      5     45      0      0
+08      4     39      1      6
+09     14     29      0      7
+RX  PUBMED:34863006
+RL  Boersma MR, Patrick RM, Jillings SL et al (2022) ODORANT1 targets multiple metabolic networks in petunia flowers. Plant J, 109: 1134-1151. doi: 10.1111/tpj.15618
+XX
+FA  ODO1
+NA  Q50EX6
+SQ  MGRQPCCDKLGVKKGPWTAEEDKKLISFILTNGQCCWRAVPKLAGLKRCGKSCRLRWTNYLRPDLKRGLLSDAEEKLVIDLHSRLGNRWSKIAARLPGRTDNEIKNHWNTHIKKKLLKMGIDPVTHEPLKKEANLSDQPTTESDQNKENGHQQVQVVPQSTNVTAAAATSTEFDNNSSFSSSASSSENSSCTTDESKLVFDNLSENDPLLSCLLEADTPLIDSPWEFPMSSTTTVEEPKSFDSIISNMTSWEDTFNWLSGYQEFGINDFGFDNCFNHVELDIFKTIDNVENRHG
+OS  Petunia hybrida
+CC  family:R2R3-MYB
+XX
+//
+MO  EEAD0089
+NA  MYB13
+P0      A      C      G      T
+01  0.197  0.306  0.162  0.335
+02  0.082  0.465  0.143  0.310
+03  0.094  0.522  0.042  0.342
+04  0.010  0.813  0.000  0.177
+05  0.997  0.000  0.003  0.000
+06  0.131  0.867  0.002  0.000
+07  0.000  1.000  0.000  0.000
+08  0.394  0.056  0.000  0.551
+09  0.988  0.003  0.000  0.008
+10  0.108  0.886  0.000  0.007
+11  0.002  0.822  0.000  0.177
+12  0.375  0.342  0.079  0.204
+13  0.301  0.310  0.049  0.340
+14  0.305  0.306  0.111  0.278
+RX  PUBMED:35092714
+RL  Orduña L, Li M, Navarro-Payá D et al (2022) Direct regulation of shikimate, early phenylpropanoid, and stilbenoid pathways by Subgroup 2 R2R3-MYBs in grapevine. Plant J, 110: 529-547. doi: 10.1111/tpj.15686
+RX  PUBMED:27407139
+RL  Wong DCJ, Schlechter R, Vannozzi A et al (2016) A systems-oriented analysis of the grapevine R2R3-MYB transcription factor family uncovers new insights into the regulation of stilbene accumulation. DNA Research 23(5):451-466. doi: 10.1093/dnares/dsw028
+XX
+FA  VvMYB13
+NA  VvMYB13
+SQ  MARSPCCDKMGLKKGPWTPEEDKILVAHVQKHGHGNWRALPKQAGLLRCGKSCRLRWVNYLRPDIKRGNFSREEEDAIIDLHEKLGNRWSAIAARLPGRTDNEIKNVWHTNLKKRLKKKLATPNSKGHSTAAASKCDSGSACQSEPVNLNFPGKISPQPSSSEFSSITDSPIRNMEIHMNTGIKDEQMDSLESFPEIHESFWSDALSSDNSSMPTAFHTVNDESQLQFPLSPADALEVGYGHSSRIDDGMEFWYDVFIRAGGLQELN
+OS  Vitis vinifera
+CC  family:R2R3-MYB
+XX
+//
+MO  EEAD0090
+NA  MYB14
+P0      A      C      G      T
+01  0.182  0.350  0.141  0.328
+02  0.108  0.449  0.121  0.323
+03  0.061  0.570  0.039  0.331
+04  0.000  0.854  0.000  0.146
+05  0.995  0.000  0.000  0.005
+06  0.200  0.795  0.000  0.005
+07  0.000  1.000  0.000  0.000
+08  0.472  0.064  0.012  0.452
+09  0.982  0.000  0.003  0.015
+10  0.134  0.866  0.000  0.000
+11  0.007  0.808  0.000  0.185
+12  0.445  0.301  0.064  0.190
+13  0.301  0.383  0.042  0.274
+14  0.346  0.262  0.109  0.282
+RX  PUBMED:35092714
+RL  Orduña L, Li M, Navarro-Payá D et al (2022) Direct regulation of shikimate, early phenylpropanoid, and stilbenoid pathways by Subgroup 2 R2R3-MYBs in grapevine. Plant J, 110: 529-547. doi: 10.1111/tpj.15686
+RX  PUBMED:27407139
+RL  Wong DCJ, Schlechter R, Vannozzi A et al (2016) A systems-oriented analysis of the grapevine R2R3-MYB transcription factor family uncovers new insights into the regulation of stilbene accumulation. DNA Research 23(5):451-466. doi: 10.1093/dnares/dsw028
+XX
+FA  VvMYB14
+NA  VvMYB14
+SQ  MGRAPCCEKMGLKKGPWTPEEDQILVNYIHLYGHGNWRALPKQAGLLRCGKSCRLRWTNYLRPDIKRGNFTSEEEETIIELHERLGNRWSAIAAKLPGRTDNEIKNVWHTHLKKRLKHNHATPPPKRHSLDASHVEKQQNPISSATNSRSESLGYGPVLSPQQSFSDISSAATTTTTATMSDITTPCIKVDSLEEFPEMDENFWSEVLSSNKSGAAGDLPGAASGPQLQFPFSPRAVIGSSPYSTYDMDMEFWYNIFTRSGELHELSEI
+OS  Vitis vinifera
+CC  family:R2R3-MYB
+XX
+//
+MO  EEAD0091
+NA  MYB15
+P0      A      C      G      T
+01  0.199  0.320  0.141  0.340
+02  0.100  0.435  0.112  0.352
+03  0.031  0.599  0.034  0.337
+04  0.000  0.864  0.000  0.136
+05  1.000  0.000  0.000  0.000
+06  0.156  0.844  0.000  0.000
+07  0.000  1.000  0.000  0.000
+08  0.534  0.056  0.002  0.408
+09  0.988  0.003  0.002  0.007
+10  0.104  0.896  0.000  0.000
+11  0.003  0.808  0.002  0.187
+12  0.410  0.342  0.058  0.190
+13  0.332  0.355  0.034  0.279
+14  0.321  0.276  0.119  0.284
+15  0.267  0.320  0.112  0.301
+RX  PUBMED:35092714
+RL  Orduña L, Li M, Navarro-Payá D et al (2022) Direct regulation of shikimate, early phenylpropanoid, and stilbenoid pathways by Subgroup 2 R2R3-MYBs in grapevine. Plant J, 110: 529-547. doi: 10.1111/tpj.15686
+RX  PUBMED:27407139
+RL  Wong DCJ, Schlechter R, Vannozzi A et al (2016) A systems-oriented analysis of the grapevine R2R3-MYB transcription factor family uncovers new insights into the regulation of stilbene accumulation. DNA Research 23(5):451-466. doi: 10.1093/dnares/dsw028
+XX
+FA  VvMYB15
+NA  A5BKG2_VITVI
+SQ  MVRAPCCDKVGLKKGPWTTQEDQILTAYVLQHGHGNWRALPKQAGLLRCGKSCRLRWINYLRPDIKRGNFSREEEDTIIELHEKLGNKWSAIAASLPGRTDNEIKNVWHTHLKKRLKKKLATPDSKGHFTAAASTCDSDSFNSSGKMSPQPSSSEFSSFTDSSTRTMETHSTGVKNEQMEEYSTESFPEIDESFWSDALSSDNSSMASDFPAVADELQLQTPELAYGQISNMMDDGMEFWYDVFIRSGGLQEL
+OS  Vitis vinifera
+CC  family:R2R3-MYB
+XX
+//
+MO  EEAD0092
+NA  bZIP1_1
+P0      A      C      G      T
+01    359    449    139     13
+02     10     44      0    906
+03      0      3    843    114
+04    960      0      0      0
+05      0    897     18     45
+06     27     27    906      0
+07      0      0      1    959
+08      0      0    960      0
+09      0      0    747    213
+10    208    709      0     43
+11    551    124    156    129
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0093
+NA  bZIP1_2
+P0      A      C      G      T
+01     21     32      7    205
+02      9      4    237     15
+03     91    174      0      0
+04      0    265      0      0
+05    264      0      1      0
+06      0    262      2      1
+07      2      0    258      5
+08      0      1      0    264
+09      9      0    256      0
+10      0      2    116    147
+11    104    119     15     27
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0094
+NA  bZIP11_1
+P0      A      C      G      T
+01    104    207    142    547
+02      0      0    795    205
+03    328    672      0      0
+04      0   1000      0      0
+05   1000      0      0      0
+06      0   1000      0      0
+07      0      0   1000      0
+08      0      0      0   1000
+09     88    406    506      0
+10    438      0    268    294
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0095
+NA  bZIP11_2
+P0      A      C      G      T
+01     26     18      4    114
+02      4      1    153      4
+03     38    104     19      1
+04      0      0      0    162
+05      0      0    162      0
+06    162      0      0      0
+07      2    102     44     14
+08      6     28     79     49
+09     17     35      1    109
+10     43      0    111      8
+11      2      5    142     13
+12     28    119      0     15
+13     79     20     41     22
+14     49     22     52     39
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0096
+NA  bZIP2_1
+P0      A      C      G      T
+01    347     93    288    272
+02    356    148    193    303
+03    328    115    110    447
+04    162     61    528    249
+05    185    319    343    153
+06    284    235      0    481
+07      0    475    456     69
+08   1000      0      0      0
+09      0    998      0      2
+10      1      6    991      2
+11      1      0      0    999
+12      0      0   1000      0
+13      0      0    767    233
+14    126    871      0      3
+15    689     64    179     68
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0097
+NA  bZIP2_2
+P0      A      C      G      T
+01     54      0    110    174
+02    128    210      0      0
+03      0    338      0      0
+04    338      0      0      0
+05      0    338      0      0
+06      0      0    338      0
+07      0      0      0    338
+08     67     95    176      0
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0098
+NA  bZIP44_1
+P0      A      C      G      T
+01     94    171    113    300
+02     10     29    507    132
+03    266    412      0      0
+04      0    678      0      0
+05    678      0      0      0
+06      0    668     10      0
+07     12      0    666      0
+08      0      0      0    678
+09     74    213    371     20
+10    220     29    245    184
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0099
+NA  bZIP44_2
+P0      A      C      G      T
+01     45     39     28     88
+02      4      0    193      3
+03    130     15     44     11
+04     15     50     29    106
+05     25      0    170      5
+06    125      0     65     10
+07     28     27     38    107
+08      4      3    193      0
+09    168      2     19     11
+10     32     38     31     99
+11     19      1    180      0
+12    158     21     20      1
+13     26     20     18    136
+14      1      0    199      0
+15    169     10     14      7
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0100
+NA  bZIP53_1
+P0      A      C      G      T
+01    212    189    465    134
+02    405    239      0    356
+03      0    595    344     61
+04   1000      0      0      0
+05      0   1000      0      0
+06      0      7    993      0
+07      0      0      0   1000
+08      0      0   1000      0
+09      0      0    763    237
+10     25    975      0      0
+11    749     30    192     29
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0101
+NA  bZIP53_2
+P0      A      C      G      T
+01     31     28      8    122
+02     12      0    174      3
+03     89     85     10      5
+04      0      5      0    184
+05      1      0    172     16
+06    189      0      0      0
+07      1    158     11     19
+08      7      9    164      9
+09      9      4      0    176
+10      3      0    179      7
+11      0      1    128     60
+12     78     72      5     34
+13     69     63     20     37
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0102
+NA  bZIP1:bZIP10_1
+P0      A      C      G      T
+01    135    212     80    573
+02      2      0    803    195
+03    326    674      0      0
+04      0   1000      0      0
+05   1000      0      0      0
+06      0    987     13      0
+07      0      0   1000      0
+08      0      0      0   1000
+09    113    425    462      0
+10    450      0    272    278
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0103
+NA  bZIP1:bZIP10_2
+P0      A      C      G      T
+01     88    288      2    114
+02     40    312     96     44
+03    420      5      8     59
+04     32    365     31     64
+05     86     25    380      1
+06      0      8      0    484
+07     40    452      0      0
+08    492      0      0      0
+09      1     61    226    204
+10     14    443      0     35
+11    304     23     62    103
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0104
+NA  bZIP1:bZIP63_1
+P0      A      C      G      T
+01    281    278    255    186
+02    271    238      2    489
+03      0    437    453    110
+04   1000      0      0      0
+05      0    989      1     10
+06     11     23    965      1
+07      0      0      0   1000
+08      0      0   1000      0
+09      0      0    718    282
+10    137    851      0     12
+11    622     73    218     87
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0105
+NA  bZIP1:bZIP63_2
+P0      A      C      G      T
+01     62    169      0    118
+02     25    190    102     32
+03    312      5      0     32
+04     29    248     25     47
+05     64     30    255      0
+06      0      0      0    349
+07     35    314      0      0
+08    349      0      0      0
+09      0     39    150    160
+10      0    349      0      0
+11    211     23     49     66
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0106
+NA  bZIP1:bZIP9_1
+P0      A      C      G      T
+01     68     15    599    313
+02    224    770      1      0
+03      1    985      0      9
+04    986      1      0      8
+05     25    854     43     73
+06     79     41    874      1
+07      0      2      0    993
+08    116    877      2      0
+09    913      0     69     13
+10     28    116    452    399
+11    170    635     61    129
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0107
+NA  bZIP1:bZIP9_2
+P0      A      C      G      T
+01     51     82     51    372
+02     25     15    469     47
+03    228    320      2      6
+04      4    552      0      0
+05    555      0      1      0
+06      0    553      3      0
+07      4      1    549      2
+08      0      1      0    555
+09     51      0    497      8
+10      6     11    265    274
+11    239    179     52     86
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP1
+NA  Q9FGX2;BZIP1_ARATH;AT5G49450.1
+SQ  MANAEKTSSGSDIDEKKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVETENAGLRSEKIWLSSYVSDLENMIATTSLTLTQSGGGDCVDDQNANAGIAVGDCRRTPWKLSCGSLQPMASFKT
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0108
+NA  bZIP11:bZIP10_1
+P0      A      C      G      T
+01    144    203    108    542
+02     17      1    751    228
+03    342    654      1      0
+04      0    997      0      0
+05    991      0      6      0
+06      0    985     11      1
+07     13     12    972      0
+08      0      0      0    997
+09    119    367    504      7
+10    386     27    274    310
+11    200    270    260    267
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0109
+NA  bZIP11:bZIP10_2
+P0      A      C      G      T
+01     42    166      0     79
+02     41    122     62     62
+03    155     10     53     69
+04     64    167      2     54
+05     60     13    214      0
+06      0      0      0    287
+07      0    287      0      0
+08    287      0      0      0
+09      0      6    140    141
+10      0    287      0      0
+11    168      9     40     70
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0110
+NA  bZIP11:bZIP63_1
+P0      A      C      G      T
+01    312    132    291    265
+02    336    173    204    287
+03    302    161    136    401
+04    230     93    458    219
+05    263    245    290    202
+06    291    274      1    434
+07      0    474    417    109
+08   1000      0      0      0
+09      0    967      6     27
+10      7     21    971      1
+11      0      0      0   1000
+12      0      0   1000      0
+13      0      0    694    306
+14    233    730      0     37
+15    510    134    206    150
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0111
+NA  bZIP11:bZIP63_2
+P0      A      C      G      T
+01     46     13     20    169
+02      0      0    248      0
+03    121    127      0      0
+04      0      0      0    248
+05      0      0    248      0
+06    248      0      0      0
+07      0    181     10     57
+08     35      0    142     71
+09     67     45     18    118
+10     34     49    105     60
+11     39      0    157     52
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0112
+NA  bZIP11:bZIP9_1
+P0      A      C      G      T
+01    264    240     32    327
+02     23    415    330     95
+03    863      0      0      0
+04      0    844     19      0
+05      0     23    840      0
+06      0      0      0    863
+07      0      0    863      0
+08      0      0    562    301
+09    210    592     17     44
+10    388    131    211    133
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0113
+NA  bZIP11:bZIP9_2
+P0      A      C      G      T
+01      6      0      6    126
+02      1    135      0      2
+03     59     44     27      8
+04     11     12     17     98
+05      2    129      0      7
+06     89     19     29      1
+07      9      7      0    122
+08      0    125      1     12
+09    105      3      0     30
+10      9     14     27     88
+11     13    115      0     10
+12     81     34      0     23
+13      0     19     16    103
+14      3    125      3      7
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP11
+NA  O65683;BZP11_ARATH;AT4G34590.1
+SQ  MESSSSGTTSSTIQTSSGSEESLMEQRKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVEAENSVLRAQLDELNHRLQSLNDIIEFLDSSNNNNNNNMGMCSNPLVGLECDDFFVNQMNMSYIMNQPLMASSDALMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0114
+NA  bZIP2:bZIP10_1
+P0      A      C      G      T
+01    135    216     80    568
+02     16      1    773    209
+03    352    647      0      0
+04      0    999      0      0
+05    999      0      0      0
+06      1    985     13      0
+07      0      0    999      0
+08      0      0      0    999
+09    112    357    530      0
+10    396      7    284    312
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0115
+NA  bZIP2:bZIP10_2
+P0      A      C      G      T
+01     77     45     20    185
+02     10      3    302     12
+03    120    180     27      0
+04      0      0      0    327
+05      0      0    316     11
+06    327      0      0      0
+07      0    254     61     12
+08     41     18    111    157
+09     42    130      7    148
+10    121      0    193     13
+11     19     21    217     70
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0116
+NA  bZIP2:bZIP63_1
+P0      A      C      G      T
+01    175     72    434    319
+02    293    316    273    118
+03    310    177      0    513
+04      0    423    476    101
+05   1000      0      0      0
+06      0    991      0      9
+07     18      7    965     10
+08      0      0      0   1000
+09      0      0   1000      0
+10      0      0    737    263
+11    313    669      0     18
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0117
+NA  bZIP2:bZIP63_2
+P0      A      C      G      T
+01     47      4     17    190
+02      5      0    249      4
+03     88    148     14      8
+04      0      2      0    256
+05      0      0    246     12
+06    258      0      0      0
+07      0    191     50     17
+08     24      8    102    124
+09     23    125      7    103
+10    102     10    132     14
+11     44     16    151     47
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0118
+NA  bZIP2:bZIP9_1
+P0      A      C      G      T
+01    297    282    224    197
+02    303    247      0    450
+03      0    474    412    114
+04   1000      0      0      0
+05      0    998      0      2
+06      3     11    985      1
+07      0      0      0   1000
+08      0      0   1000      0
+09      0      0    702    298
+10    174    821      0      5
+11    624     58    213    105
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0119
+NA  bZIP2:bZIP9_2
+P0      A      C      G      T
+01     62     28     26    193
+02     18      0    291      0
+03    148    137     24      0
+04      0      0      0    309
+05      0      0    287     22
+06    300      0      9      0
+07      1    209     37     62
+08     54     25    202     28
+09     47      2      2    258
+10     18      3    251     37
+11      0      0    252     57
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP2
+NA  Q9SI15;BZIP2_ARATH;AT2G18160.1 
+SQ  MASSSSTYRSSSSSDGGNNNPSDSVVTVDERKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQAENSVLTAQMEELSTRLQSLNEIVDLVQSNGAGFGVDQIDGCGFDDRTVGIDGYYDDMNMMSNVNHWGGSVYTNQPIMANDINMY
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0120
+NA  bZIP44:bZIP10_1
+P0      A      C      G      T
+01    322    317     13    348
+02      0    567    315    118
+03   1000      0      0      0
+04      0    992      1      7
+05      0     20    980      0
+06      0      0      0   1000
+07      0      0   1000      0
+08      0      0    633    367
+09    152    843      0      5
+10    599     84    208    109
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0121
+NA  bZIP44:bZIP10_2
+P0      A      C      G      T
+01     87    255      8     17
+02     30    229      4    104
+03    197      4    100     66
+04    130    183     23     31
+05     39     50    278      0
+06      0      0      0    367
+07      4    363      0      0
+08    367      0      0      0
+09      0     40    180    147
+10      0    355      0     12
+11    223     21     42     81
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0122
+NA  bZIP44:bZIP63_1
+P0      A      C      G      T
+01    311    265      1    422
+02      1    492    410     96
+03    999      0      0      0
+04      0    986      2     11
+05      5     10    980      4
+06      0      0      0    999
+07      0      0    999      0
+08      0      0    709    290
+09    140    840      0     19
+10    630     79    206     84
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0123
+NA  bZIP44:bZIP63_2
+P0      A      C      G      T
+01    226    294      0      0
+02      0    520      0      0
+03    520      0      0      0
+04      0    520      0      0
+05      0      0    520      0
+06      0      0      0    520
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0124
+NA  bZIP44:bZIP9_1
+P0      A      C      G      T
+01    125    203    119    553
+02      8      0    800    192
+03    422    578      0      0
+04      0   1000      0      0
+05   1000      0      0      0
+06      0   1000      0      0
+07      0      0   1000      0
+08      0      0      0   1000
+09    113    295    592      0
+10    304      0    358    338
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0125
+NA  bZIP44:bZIP9_2
+P0      A      C      G      T
+01     77    294      0     66
+02     35    304     72     26
+03    359      2      9     67
+04     29    312     47     49
+05     62     41    333      1
+06      0      1      0    436
+07     16    421      0      0
+08    437      0      0      0
+09      6     46    181    204
+10      6    402      1     28
+11    261     29     66     81
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP44
+NA  C0Z2L5;BZP44_ARATH;AT1G75390.1
+SQ  MNNKTEMGSSTSGNCSSVSTTGLANSGSESDLRQRDLIDERKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIEAENDILRAQVLELNHRLQSLNEIVDFVESSSSGFGMETGQGLFDGGLFDGVMNPMNLGFYNQPIMASASTAGDVFNC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0126
+NA  bZIP53:bZIP10_1
+P0      A      C      G      T
+01    124    206    107    563
+02     10      1    777    212
+03    368    632      0      0
+04      0   1000      0      0
+05   1000      0      0      0
+06      5    981     11      3
+07      8      0    992      0
+08      0      1      0    999
+09    117    393    489      1
+10    421     11    258    310
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0127
+NA  bZIP53:bZIP10_2
+P0      A      C      G      T
+01     74    216     16     33
+02     52    164      0    123
+03    142      8    105     84
+04    132    151     18     38
+05     63     47    228      1
+06      0      2      0    337
+07      5    334      0      0
+08    339      0      0      0
+09      0      9    184    146
+10      1    337      0      1
+11    224     23     35     57
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP10
+NA  AT4G02640.2
+SQ  MNSIFSIDDFSDPFWETPPIPLNPDSSKPVTADEVSQSQPEWTFEMFLEEISSSAVSSEPLGNNNNAIVGVSSAQSLPSVSGQNDFEDDSRFRDRDSGNLDCAAPMTTKTVIVDSDDYRRVLKNKLETECATVVSLRVGSVKPEDSTSSPETQLQPVQSSPLTQGSLMTPGELGVTSSLPAEVKKTGVSMKQVTSGSSREYSDDEDLDEENETTGSLKPEDVKKSRRMLSNRESARRSRRRKQEQTSDLETQVNDLKGEHSSLLKQLSNMNHKYDEAAVGNRILKADIETLRAKVKMAEETVKRVTGMNPMLLGRSSGHNNNNRMPITGNNRMDSSSIIPAYQPHSNLNHMSNQNIGIPTILPPRLGNNFAAPPSQTSSPLQRIRNGQNHHVTPSANPYGWNTEPQNDSAWPKKCVD
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0128
+NA  bZIP53:bZIP63_1
+P0      A      C      G      T
+01     74     17    551    281
+02    260    663      0      0
+03      2    913      0      8
+04    897      0      2     24
+05     26    849     17     31
+06     67     12    840      4
+07      0      0      0    923
+08    140    783      0      0
+09    847      0     67      9
+10     12    115    460    336
+11    171    588     37    127
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0129
+NA  bZIP53:bZIP63_2
+P0      A      C      G      T
+01     97     83    159    280
+02    316    271     16     16
+03     15    532      4     68
+04    615      0      4      0
+05      7    604      2      6
+06      0      7    609      3
+07      0      2      0    617
+08      0      0    619      0
+09      5      3    330    281
+10     73    501     10     35
+11    402     72     79     66
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP63
+NA  B9DGI8;BZP63_ARATH;AT5G28770.2
+SQ  MEKVFSDEEISGNHHWSVNGMTSLNRSASEWAFNRFIQESSAAADDGESTTACGVSVSSPPNVPVDSEEYRAFLKSKLNLACAAVAMKRGTFIKPQDTSGRSDNGGANESEQASLASSKATPMMSSAITSGSELSGDEEEADGETNMNPTNVKRVKRMLSNRESARRSRRRKQAHLSELETQVSQLRVENSKLMKGLTDVTQTFNDASVENRVLKANIETLRAKVKMAEETVKRLTGFNPMFHNMPQIVSTVSLPSETSNSPDTTSSQVTTPEIISSGNKGKALIGCKMNRTASMRRVESLEHLQKRIRSVGDQ
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0130
+NA  bZIP53:bZIP9_1
+P0      A      C      G      T
+01      0    425    460    115
+02   1000      0      0      0
+03      0   1000      0      0
+04      0      5    995      0
+05      0      0      0   1000
+06      0      0   1000      0
+07      0      0    695    305
+08    200    794      0      6
+09    604     72    213    111
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+FA  AtbZIP53
+NA  Q9LZP8;BZP53_ARATH;AT3G62420.1
+SQ  MGSLQMQTSPESDNDPRYATVTDERKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEMESKNNVLRAQASELTDRLRSLNSVLEMVEEISGQALDIPEIPESMQNPWQMPCPMQPIRASADMFDC
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0131
+NA  bZIP53:bZIP9_2
+P0      A      C      G      T
+01     49    215      0     86
+02     29    206     53     62
+03    264      2     35     49
+04     53    238     18     41
+05     62     24    263      1
+06      0      6      0    344
+07     15    335      0      0
+08    350      0      0      0
+09      5     23    158    164
+10      0    348      0      2
+11    224     15     47     64
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  AtbZIP9
+NA  Q9FUD3;BZIP9_ARATH;AT5G24800.1
+SQ  MDNHTAKDIGMKRSASELALQEYLTTSPLDPCFDLMNRDYTCELRDSLLWSEGLFPAGPFRDAQSSICENLSADSPVSANKPEVRGGVRRTTSGSSHVNSDDEDAETEAGQSEMTNDPNDLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQLIDATQQFRSAGTNNRVLKSDVETLRVKVKLAEDLVARGSLTSSLNQLLQTHLSPPSHSISSLHYTGNTSPAITVHSDQSLFPGMTLSGQNSSPGLGNVSSEAVSCVSDIWP
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0132
+NA  bZIP3_1
+P0      A      C      G      T
+01     79     17    698    206
+02    315    467    171     47
+03     93    121      0    786
+04      0    147    765     88
+05   1000      0      0      0
+06      0    983      6     11
+07      8      8    975      9
+08      0      0      0   1000
+09      0      0   1000      0
+10      0      0    827    173
+11    231    747      2     20
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  bZIP3
+NA  Q9LFU3_ARATH;At5g15830
+SQ  MQPNYDSSSLNNMQQQDYFNLNNYYNNLNPSTNNNNLNILQYPQIQELNLQSPVSNNSTTSDDATEEIFVINERKQRRMVSNRESARRSRMRKQRHLDELLSQVAWLRSENHQLLDKLNQVSDNNDLVIQENSSLKEENLELRQVITSMKKLGGGIHDKYSSPSSMDELDQDFSSITDDPRTHHPS
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0133
+NA  bZIP3_2
+P0      A      C      G      T
+01     28      5     63    120
+02    117     92      7      0
+03      2    196      0     18
+04    214      0      2      0
+05      1    211      0      4
+06      4      0    207      5
+07      0      0      0    216
+08      0      0    216      0
+09      0      0    104    112
+10     13    179      6     18
+11    138      7     44     27
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  bZIP3
+NA  Q9LFU3_ARATH;At5g15830
+SQ  MQPNYDSSSLNNMQQQDYFNLNNYYNNLNPSTNNNNLNILQYPQIQELNLQSPVSNNSTTSDDATEEIFVINERKQRRMVSNRESARRSRMRKQRHLDELLSQVAWLRSENHQLLDKLNQVSDNNDLVIQENSSLKEENLELRQVITSMKKLGGGIHDKYSSPSSMDELDQDFSSITDDPRTHHPS
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0134
+NA  bZIP18_1
+P0      A      C      G      T
+01     99    115     55    731
+02      0      1    906     93
+03    533    464      3      0
+04      0   1000      0      0
+05   1000      0      0      0
+06     89      3    908      0
+07      0    886     90     24
+08      0    168      0    832
+09    166    131    505    198
+10    209      0    455    336
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  bZIP18
+NA  BZP18_ARATH
+SQ  MEDPSNPQPNQSNLSQCPPLATAPTPAPVRGPYHRRAHSEVQFRLPEDLDLSEPFGGFDELGSEDDLFCSYMDIEKLGSGSGSASDSAGPSAPRSDNPFSAENGGAEAGNSRPRHRHSLSVDGSSTLESIEAKKAMAPDKLAELWVVDPKRAKRIIANRQSAARSKERKARYILELERKVQTLQTEATTLSAQLSLFQRDTTGLSSENTELKLRLQVMEQQAKLRDALNEQLKKEVERLKFATGEVSPADAYNLGMAHMQYQQQPQQSFFQHHHQQQTDAQNLQQMTHQFHLFQPNNNQNQSSRTNPPTAHQLMHHATSNAPAQSHSYSEAMHEDHLGRLQGLDISSCGRGSNFGRSDTVSESSSTM
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0135
+NA  bZIP18_2
+P0      A      C      G      T
+01      4      0     51     27
+02     49     33      0      0
+03      0     82      0      0
+04     82      0      0      0
+05      0      5     77      0
+06     16      0     64      2
+07      0     76      6      0
+08      0      0      0     82
+09      0      0     82      0
+10      0      0     34     48
+11     38     22      6     16
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  bZIP18
+NA  BZP18_ARATH
+SQ  MEDPSNPQPNQSNLSQCPPLATAPTPAPVRGPYHRRAHSEVQFRLPEDLDLSEPFGGFDELGSEDDLFCSYMDIEKLGSGSGSASDSAGPSAPRSDNPFSAENGGAEAGNSRPRHRHSLSVDGSSTLESIEAKKAMAPDKLAELWVVDPKRAKRIIANRQSAARSKERKARYILELERKVQTLQTEATTLSAQLSLFQRDTTGLSSENTELKLRLQVMEQQAKLRDALNEQLKKEVERLKFATGEVSPADAYNLGMAHMQYQQQPQQSFFQHHHQQQTDAQNLQQMTHQFHLFQPNNNQNQSSRTNPPTAHQLMHHATSNAPAQSHSYSEAMHEDHLGRLQGLDISSCGRGSNFGRSDTVSESSSTM
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0136
+NA  TGA5_1
+P0      A      C      G      T
+01    293    112    316    279
+02    388    153    159    300
+03    181    184     95    540
+04     97     85    734     84
+05    544    373     79      4
+06      1      0      0    999
+07      0      0    875    125
+08    997      0      3      0
+09      0    893      3    104
+10     44      3    950      3
+11      2      2      0    996
+12     63    891     40      6
+13    931      0     61      8
+14     42    408    153    397
+15    274    287    122    317
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  TGA5
+NA  Q39163;TGA5_ARATH
+SQ  MGDTSPRTSVSTDGDTDHNNLMFDEGHLGIGASDSSDRSKSKMDQKTLRRLAQNREAARKSRLRKKAYVQQLENSRLKLTQLEQELQRARQQGVFISSSGDQAHSTAGDGAMAFDVEYRRWQEDKNRQMKELSSAIDSHATDSELRIIVDGVIAHYEELYRIKGNAAKSDVFHLLSGMWKTPAERCFLWLGGFRSSELLKLIASQLEPLTEQQSLDINNLQQSSQQAEDALSQGMDNLQQSLADTLSSGTLGSSSSGNVASYMGQMAMAMGKLGTLEGFIRQADNLRLQTYQQMVRLLTTRQSARALLAVHNYTLRLRALSSLWLARPRE
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0137
+NA  TGA5_2
+P0      A      C      G      T
+01     32     47     18    107
+02     11      1    188      4
+03    110     12     70     12
+04     84     18     26     76
+05      3      0    201      0
+06    137      6     38     23
+07     60     47     15     82
+08      0      0    204      0
+09    146      0     53      5
+10     72     29     19     84
+11      0      0    204      0
+12    148      9     47      0
+13     93     30     13     68
+14     41      0    163      0
+15    118     38     40      8
+RX  PUBMED:37147307
+RL  Li M, Yao T, Lin W et al (2023) Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors. Nat Commun 14,2600. doi: 10.1038/s41467-023-38096-2
+XX
+FA  TGA5
+NA  Q39163;TGA5_ARATH
+SQ  MGDTSPRTSVSTDGDTDHNNLMFDEGHLGIGASDSSDRSKSKMDQKTLRRLAQNREAARKSRLRKKAYVQQLENSRLKLTQLEQELQRARQQGVFISSSGDQAHSTAGDGAMAFDVEYRRWQEDKNRQMKELSSAIDSHATDSELRIIVDGVIAHYEELYRIKGNAAKSDVFHLLSGMWKTPAERCFLWLGGFRSSELLKLIASQLEPLTEQQSLDINNLQQSSQQAEDALSQGMDNLQQSLADTLSSGTLGSSSSGNVASYMGQMAMAMGKLGTLEGFIRQADNLRLQTYQQMVRLLTTRQSARALLAVHNYTLRLRALSSLWLARPRE
+OS  Arabidopsis thaliana
+CC  family:bZIP
+XX
+//
+MO  EEAD0138
+NA  LFY-UFO-dLUBS
+P0      A      C      G      T
+01    180     13    387      0
+02    244     42    249     45
+03    177     62    105    236
+04    328     24    141     87
+05      0    573      0      7
+06    521     27      6     26
+07     47    180     92    261
+08     73    209     86    212
+09    114    191    169    106
+10    192     94     74    220
+11    306     28     10    236
+12    174     31     54    321
+13    140     12     69    359
+14    391      7    154     28
+15    137    150     28    265
+16    140    370      2     68
+17     12    375      2    191
+18    315     23    159     83
+19    182     95    149    154
+20    146    127     34    273
+21    244     18    299     19
+22    130      5    322    123
+23    236     32    160    152
+24     71    145     34    330
+25    312     99     25    144
+RX  PUBMED:36732360
+RL  Rieu P, Turchi L, Thevenon E et al (2023) The F-box protein UFO controls flower development by redirecting the master transcription factor LEAFY to new cis-elements. Nat. Plants 9:315-329. doi: 10.1038/s41477-022-01336-2
+XX
+FA  LEAFY
+NA  LEAFY; LEAFY3; LFY; LFY3; LFY_ARATH
+SQ  MDPEGFTSGLFRWNPTRALVQAPPPVPPPLQQQPVTPQTAAFGMRLGGLEGLFGPYGIRFYTAAKIAELGFTASTLVGMKDEELEEMMNSLSHIFRWELLVGERYGIKAAVRAERRRLQEEEEEESSRRRHLLLSAAGDSGTHHALDALSQEGLSEEPVQQQDQTDAAGNNGGGGSGYWDAGQGKMKKQQQQRRRKKPMLTSVETDEDVNEGEDDDGMDNGNGGSGLGTERQREHPFIVTEPGEVARGKKNGLDYLFHLYEQCREFLLQVQTIAKDRGEKCPTKVTNQVFRYAKKSGASYINKPKMRHYVHCYALHCLDEEASNALRRAFKERGENVGSWRQACYKPLVNIACRHGWDIDAVFNAHPRLSIWYVPTKLRQLCHLERNNAVAAAAALVGGISCTGSSTSGRGGCGGDDLRF
+OS  Arabidopsis thaliana
+CC  family:Floricaula/leafy
+XX
+//
+MO  EEAD0139
+NA  LFY-UFO-mLUBS
+P0      A      C      G      T
+01    145    111    201    141
+02    189     13    396      0
+03    257     45    245     51
+04    194     59    106    239
+05    326     29    148     95
+06      0    597      0      1
+07    537     27     11     23
+08     57    188     98    255
+09     79    206     95    218
+10    118    198    161    121
+11    193    100     84    221
+12    318     38     12    230
+13    178     32     62    326
+14    135     13     70    380
+15    405      8    152     33
+16    147    157     21    273
+17    143    389      0     66
+18      0    398      0    200
+19    327     23    172     76
+RX  PUBMED:36732360
+RL  Rieu P, Turchi L, Thevenon E et al (2023) The F-box protein UFO controls flower development by redirecting the master transcription factor LEAFY to new cis-elements. Nat. Plants 9:315-329. doi: 10.1038/s41477-022-01336-2
+XX
+FA  LEAFY
+NA  LEAFY; LEAFY3; LFY; LFY3; LFY_ARATH
+SQ  MDPEGFTSGLFRWNPTRALVQAPPPVPPPLQQQPVTPQTAAFGMRLGGLEGLFGPYGIRFYTAAKIAELGFTASTLVGMKDEELEEMMNSLSHIFRWELLVGERYGIKAAVRAERRRLQEEEEEESSRRRHLLLSAAGDSGTHHALDALSQEGLSEEPVQQQDQTDAAGNNGGGGSGYWDAGQGKMKKQQQQRRRKKPMLTSVETDEDVNEGEDDDGMDNGNGGSGLGTERQREHPFIVTEPGEVARGKKNGLDYLFHLYEQCREFLLQVQTIAKDRGEKCPTKVTNQVFRYAKKSGASYINKPKMRHYVHCYALHCLDEEASNALRRAFKERGENVGSWRQACYKPLVNIACRHGWDIDAVFNAHPRLSIWYVPTKLRQLCHLERNNAVAAAAALVGGISCTGSSTSGRGGCGGDDLRF
+OS  Arabidopsis thaliana
+CC  family:Floricaula/leafy
+XX
+//
+MO  EEAD0140
+NA  FUL-1
+P0      A      C      G      T
+01  0.211  0.065  0.018  0.705
+02  0.123  0.012  0.023  0.842
+03  0.424  0.059  0.242  0.274
+04  0.009  0.990  0.001  0.000
+05  0.005  0.866  0.000  0.130
+06  0.458  0.337  0.027  0.177
+07  0.586  0.016  0.165  0.233
+08  0.971  0.000  0.022  0.007
+09  0.812  0.001  0.000  0.187
+10  0.746  0.023  0.106  0.124
+11  0.331  0.090  0.029  0.550
+12  0.336  0.001  0.662  0.001
+13  0.006  0.018  0.931  0.044
+14  0.428  0.278  0.063  0.231
+15  0.772  0.110  0.052  0.067
+RX  PUBMED:36797351
+RL  van Mourik H, Chen P, Smaczniak C et al (2023) Dual specificity and target gene selection by the MADS-domain protein FRUITFULL. Nat. Plants 9, 473-485. doi: 10.1038/s41477-023-01351-x
+XX
+FA  FRUITFULL
+NA  FUL;Q38876
+SQ  MGRGRVQLKRIENKINRQVTFSKRRSGLLKKAHEISVLCDAEVALIVFSSKGKLFEYSTDSCMERILERYDRYLYSDKQLVGRDVSQSENWVLEHAKLKARVEVLEKNKRNFMGEDLDSLSLKELQSLEHQLDAAIKSIRSRKNQAMFESISALQKKDKALQDHNNSLLKKIKEREKKTGQQEGQLVQCSNSSSVLLPQYCVTSSRDGFVERVGGENGGASSLTEPNSLLPAWMLRPTTTNE
+OS  Arabidopsis thaliana
+CC  family:MADS-box
+XX
+//
+MO  EEAD0141
+NA  FUL-2
+P0      A      C      G      T
+01  0.211  0.065  0.018  0.705
+02  0.123  0.012  0.023  0.842
+03  0.424  0.059  0.242  0.274
+04  0.009  0.990  0.001  0.000
+05  0.005  0.866  0.000  0.130
+06  0.458  0.337  0.027  0.177
+07  0.586  0.016  0.165  0.233
+08  0.971  0.000  0.022  0.007
+09  0.812  0.001  0.000  0.187
+10  0.746  0.023  0.106  0.124
+11  0.331  0.090  0.029  0.550
+12  0.336  0.001  0.662  0.001
+13  0.006  0.018  0.931  0.044
+14  0.428  0.278  0.063  0.231
+15  0.772  0.110  0.052  0.067
+RX  PUBMED:36797351
+RL  van Mourik H, Chen P, Smaczniak C et al (2023) Dual specificity and target gene selection by the MADS-domain protein FRUITFULL. Nat. Plants 9, 473-485. doi: 10.1038/s41477-023-01351-x
+XX
+FA  FRUITFULL
+NA  FUL;Q38876
+SQ  MGRGRVQLKRIENKINRQVTFSKRRSGLLKKAHEISVLCDAEVALIVFSSKGKLFEYSTDSCMERILERYDRYLYSDKQLVGRDVSQSENWVLEHAKLKARVEVLEKNKRNFMGEDLDSLSLKELQSLEHQLDAAIKSIRSRKNQAMFESISALQKKDKALQDHNNSLLKKIKEREKKTGQQEGQLVQCSNSSSVLLPQYCVTSSRDGFVERVGGENGGASSLTEPNSLLPAWMLRPTTTNE
+OS  Arabidopsis thaliana
+CC  family:MADS-box
+XX
+//
+MO  EEAD0142
+NA  FUL-3
+P0      A      C      G      T
+01  0.394  0.208  0.116  0.283
+02  0.453  0.207  0.109  0.231
+03  0.234  0.414  0.135  0.217
+04  0.335  0.036  0.023  0.606
+05  0.035  0.017  0.043  0.905
+06  0.626  0.031  0.110  0.234
+07  0.006  0.983  0.009  0.002
+08  0.006  0.743  0.000  0.251
+09  0.930  0.005  0.017  0.048
+10  0.228  0.022  0.015  0.735
+11  0.839  0.006  0.006  0.149
+12  0.755  0.008  0.007  0.230
+13  0.869  0.006  0.071  0.054
+14  0.117  0.013  0.006  0.864
+15  0.420  0.009  0.564  0.007
+RX  PUBMED:36797351
+RL  van Mourik H, Chen P, Smaczniak C et al (2023) Dual specificity and target gene selection by the MADS-domain protein FRUITFULL. Nat. Plants 9, 473-485. doi: 10.1038/s41477-023-01351-x
+XX
+FA  FRUITFULL
+NA  FUL;Q38876
+SQ  MGRGRVQLKRIENKINRQVTFSKRRSGLLKKAHEISVLCDAEVALIVFSSKGKLFEYSTDSCMERILERYDRYLYSDKQLVGRDVSQSENWVLEHAKLKARVEVLEKNKRNFMGEDLDSLSLKELQSLEHQLDAAIKSIRSRKNQAMFESISALQKKDKALQDHNNSLLKKIKEREKKTGQQEGQLVQCSNSSSVLLPQYCVTSSRDGFVERVGGENGGASSLTEPNSLLPAWMLRPTTTNE
+OS  Arabidopsis thaliana
+CC  family:MADS-box
+XX
+//
+MO  EEAD0143
+NA  FUL-4
+P0      A      C      G      T
+01  0.102  0.621  0.196  0.081
+02  0.009  0.981  0.007  0.003
+03  0.000  0.299  0.000  0.701
+04  0.979  0.000  0.001  0.020
+05  0.000  0.031  0.000  0.969
+06  0.073  0.000  0.000  0.927
+07  0.116  0.000  0.000  0.884
+08  0.878  0.098  0.002  0.023
+09  0.135  0.002  0.000  0.863
+10  0.505  0.003  0.489  0.003
+11  0.010  0.012  0.955  0.023
+RX  PUBMED:36797351
+RL  van Mourik H, Chen P, Smaczniak C et al (2023) Dual specificity and target gene selection by the MADS-domain protein FRUITFULL. Nat. Plants 9, 473-485. doi: 10.1038/s41477-023-01351-x
+XX
+FA  FRUITFULL
+NA  FUL;Q38876
+SQ  MGRGRVQLKRIENKINRQVTFSKRRSGLLKKAHEISVLCDAEVALIVFSSKGKLFEYSTDSCMERILERYDRYLYSDKQLVGRDVSQSENWVLEHAKLKARVEVLEKNKRNFMGEDLDSLSLKELQSLEHQLDAAIKSIRSRKNQAMFESISALQKKDKALQDHNNSLLKKIKEREKKTGQQEGQLVQCSNSSSVLLPQYCVTSSRDGFVERVGGENGGASSLTEPNSLLPAWMLRPTTTNE
+OS  Arabidopsis thaliana
+CC  family:MADS-box
+XX
+//
+MO  EEAD0144
+NA  STOP1
+P0      A      C      G      T
+01      1      3      4      0
+02      2      0      6      0
+03      0      1      7      0
+04      4      0      4      0
+05      3      2      2      1
+06      7      1      0      0
+07      2      0      5      1
+08      3      0      5      0
+09      3      2      1      2
+10      0      4      1      3
+11      2      3      0      3
+12      1      1      0      6
+13      5      1      0      2
+14      2      2      0      4
+15      1      5      2      0
+16      0      2      0      6
+17      1      2      3      2
+RX  PUBMED:37611056
+RL  Tokizawa M, Enomoto T, Chandnani R rt al (2023) The transcription factors, STOP1 and TCP20, are required for root system architecture alterations in response to nitrate deficiency. Proc Natl Acad Sci U S A. 120(35):e2300446120. doi: 10.1073/pnas.2300446120
+XX
+FA  STOP1
+NA  Q9C8N5;At1g34370
+SQ  METEDDLCNTNWGSSSSKSREPGSSDCGNSTFAGFTSQQKWEDASILDYEMGVEPGLQESIQANVDFLQGVRAQAWDPRTMLSNLSFMEQKIHQLQDLVHLLVGRGGQLQGRQDELAAQQQQLITTDLTSIIIQLISTAGSLLPSVKHNMSTAPGPFTGQPGSAVFPYVREANNVASQSQNNNNCGAREFDLPKPVLVDEREGHVVEEHEMKDEDDVEEGENLPPGSYEILQLEKEEILAPHTHFCTICGKGFKRDANLRMHMRGHGDEYKTAAALAKPNKESVPGSEPMLIKRYSCPFLGCKRNKEHKKFQPLKTILCVKNHYKRTHCDKSFTCSRCHTKKFSVIADLKTHEKHCGKNKWLCSCGTTFSRKDKLFGHIALFQGHTPAIPLEETKPSASTSTQRGSSEGGNNNQGMVGFNLGSASNANQETTQPGMTDGRICFEESFSPMNFDTCNFGGFHEFPRLMFDDSESSFQMLIANACGFSPRNVGESVSDTSL
+OS  Arabidopsis thaliana
+CC  family:Znf_C2H2_sf
 XX
 //
