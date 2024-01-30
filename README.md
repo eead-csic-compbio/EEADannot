@@ -3,7 +3,8 @@
 This repository holds the scripts and data files used for the manual curation of DNA motifs and cis regulatory sites, 
 mostly from plants, that are eventually added as a separate library/collection  
 in the database 
-[footprintDB](https://floresta.eead.csic.es/footprintdb).
+[footprintDB](https://floresta.eead.csic.es/footprintdb), also available at [RSAT::Plants](https://rsat.eead.csic.es/plants),
+which are part of the [INB/ELIXIR-ES](https://inb-elixir.es) resources portfolio.
 
 ### Citation
 
