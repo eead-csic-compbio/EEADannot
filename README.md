@@ -1,8 +1,7 @@
 ## EEADannot
 
 This repository holds the scripts and data files used for the manual curation of DNA motifs and cis regulatory sites, 
-mostly from plants, that are eventually added as a separate library/collection  
-in the database 
+mostly from plants, that are eventually added as a separate library/collection in the database 
 [footprintDB](https://floresta.eead.csic.es/footprintdb), also available at [RSAT::Plants](https://rsat.eead.csic.es/plants),
 which are part of the [INB/ELIXIR-ES](https://inb-elixir.es) resources portfolio.
 
@@ -55,6 +54,10 @@ doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17
   
       perl -ane 'next if(/^>/ || /^#/); $f++; for $c (1 .. @F){ $data[$f][$c]=$F[$c-1] }; $maxc=@F if(@F>$maxc); END{ for $c (1 .. $maxc){ for $ff (1 .. $f){ printf("%1.3f\t",$data[$ff][$c]) } print "\n"} }' motif.meme
 
+  - If you need to convert a PNG logo check https://www.biostars.org/p/9537076/#9607522 followed by:
+
+      cat enoLogo.txt | perl -lne 'next if(/^#/ || /^P/); s/^([ACGT])/$1:/; tr/AT/TA/; push(@pwm,"$_\n"); END{ print sort(@pwm)}'
+
 * Add individual sites, if any, to [sites.tab](./sites.tab).
 
 * Add new papers to [references.tab](./references.tab)
@@ -62,6 +65,6 @@ doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17
   - Second field is one or more TF name/primary key separated by commas [,].
   - Third field is PubMed id.
 
-* Actually format the library in footprintDB format:
+* Actually format the library in footprintDB format (will try to use [Plant-TFClass](https://doi.org/10.1016/j.tplants.2023.06.023) to assign TFs to families):
 
     $ perl create_library4footprintdb.pl
