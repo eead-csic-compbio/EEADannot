@@ -1,17 +1,28 @@
 #!/usr/bin/perl -w
 use strict;
+use FindBin '$Bin';
 
-# Script to make a footprintDB library of motifs & transcription factors (TF) from local files
+# Script to make a footprintDB library of motifs & transcription factors (TF) from local files,
+# uses system blastp
 #
 # $TFSEQFILE : FASTA file with peptide TF sequences with metadata in header; 1st field is primary key
-# $SITEFILE  : TSV file with 1/cis regulatory site per line; linked to TF through primary key, there might be several lines for the same TF
+# $SITEFILE  : TSV file with 1/cis regulatory site per line; linked to TF through primary key, 
+#              there might be several lines for the same TF
 # $REFSFILE  : CSV file with one PubMed entry per line; it might be repeated for several motifs
-# $PWMFILE   : consensus TSV file where each matrix has two metadata: motif name\tprimary key; there might be several for same TF
+# $PWMFILE   : consensus TSV file where each matrix has two metadata: motif name\tprimary key; 
+#              there might be several for same TF
+
+# $TFCLASSFILE : BLAST-formatted representative protein sequences from Plant-TFClass, 
+#                built from UniProt ids at https://doi.org/10.1016/j.tplants.2023.06.023                 
 
 my $PWMFILE     = 'PWM.tab';
 my $REFSFILE    = 'references.tab';
 my $TFSEQFILE   = 'TFsequences.faa';
 my $SITEFILE    = 'sites.tab';
+
+my $TFCLASSFILE = $Bin . '/Plant-TFClass/Plant-TFClass.faa';
+my $MINTFCLASSSEQID = 40;
+my $MINTFCLASSEVAL  = 0.00001;
 
 my $WLIBRARY    = 'EEADannot.fdb'; 
 
@@ -33,7 +44,7 @@ EOH
 my (%TFsequence,@acc,%synonyms,%species,%family);
 my (%fullname,%sites,%pubmeds,%references,%seen);
 my ($tfaccession,$tfaccs,$syns,$site,$pubmed,$reference);
-my ($nt,$bs,$p,$weights,$motifname,$pwm_width);
+my ($nt,$bs,$p,$weights,$motifname,$pwm_width,$TFclass);
 
 my ($n_of_references,$n_of_sites,$n_of_pwms) = (0,0,0);
 
@@ -72,6 +83,28 @@ while(my $line = <TFSEQ>)
 close(TFSEQ); 
  
 print "# read ".scalar(keys(%TFsequence))." sequences\n"; 
+
+## 1.1) retrieve Plant-TFClass family annotation if possible
+foreach $tfaccession (keys(%family)) {
+
+  $TFclass = $family{$tfaccession};
+  open(BLASTCLASS,"echo $TFsequence{$tfaccession} | blastp -subject $TFCLASSFILE -outfmt 6 |") ||
+    die "# ERROR: cannot run blastp\n";
+
+    while(<BLASTCLASS>) {
+    my @data = split(/\t/,$_);
+
+    if($data[2] >= $MINTFCLASSSEQID && $data[10] < $MINTFCLASSEVAL) {
+      $TFclass = $data[1];
+      $TFclass =~ s/___/ /g;
+    
+      print "# update family from '$family{$tfaccession}' to '$TFclass'\n"; 
+      $family{$tfaccession} = $TFclass;
+      last;    
+    }  
+  }
+  close(BLASTCLASS);
+}
 
 ## 2) read sites
 open(SITES,$SITEFILE) || die "# $0 : cannot read $SITEFILE\n";
