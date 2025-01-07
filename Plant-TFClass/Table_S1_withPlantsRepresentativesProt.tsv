@@ -1,0 +1,57 @@
+Common names	SuperClass	Class	Family	PDB ID (used in fig 2)	Uniprot ID	Locus number	Gene name
+ARID/HMG, ARID/Bright	Helix-turn-helix domains	ARID		1KQQ	Q84JT7	AT2G46040	ARID1
+E2F, E2F-DP, E2F/DP	Helix-turn-helix domains	Fork head / winged helix factors	E2F	2C6Y	Q9FNY0	AT2G36010	E2FA, E2F3, E2F4
+HSF	Helix-turn-helix domains	Heat shock factors	HSF	5D8K	O22230	AT2G41690	HSFB3, HSF05
+HD-DTT	Helix-turn-helix domains	Homeo domain factors	DDT	NA	F4HY56	AT1G28420	RLT1, HOX7, HB-1
+HD-Zip	Helix-turn-helix domains	Homeo domain factors	HD-ZIP	NA	P92953	AT2G44910	ATHB-4
+LD	Helix-turn-helix domains	Homeo domain factors	LD	NA	Q38796	AT4G02560	LD
+HD_PHD	Helix-turn-helix domains	Homeo domain factors	PHD	NA	Q04996	AT3G19510	HAT3.1
+HD_PINTOX	Helix-turn-helix domains	Homeo domain factors	PINTOX	NA	Q8H0V5	AT5G11270	OCP3
+HD_PLINC	Helix-turn-helix domains	Homeo domain factors	PLINC	NA	Q9FRL5	AT1G75240	ATHB-33, ZHD5
+HD SAWADEE	Helix-turn-helix domains	Homeo domain factors	SAWADEE	NA	Q8RWJ7	AT3G18380	HD limite
+HD TALE, HD_BEL, HD_KNOX	Helix-turn-helix domains	Homeo domain factors	TALE-type HD	NA	Q9FPQ8	AT1G62990	KNAT7, IRX11
+HD_WOX	Helix-turn-helix domains	Homeo domain factors	WOX	6RYI	Q9SB92	AT2G17950	WUS, PGA6
+LEAFY, LFY	Helix-turn-helix domains	LEAFY		2VY1	Q00958	AT5G61850	LFY, LEAFY
+RWP-RK, NIN like, AtRKD, RWPRK	Helix-turn-helix domains	RWP-RK		AF2 model	Q9LE38	AT1G20640	NLP4
+GARP, ARR-related, ARR-B, G2like, G2-like	Helix-turn-helix domains	Tryptophan cluster factors	GARP_ARR-B	Not shown	Q9FXD6	AT1G67710	ARR11, ARP3
+GARP, ARR-related, ARR-B, G2like, G2-like	Helix-turn-helix domains	Tryptophan cluster factors	GARP_G2-like	5LXU	Q9SNB4	AT3G46640	LUX, PCL1
+MYB	Helix-turn-helix domains	Tryptophan cluster factors	MYB	6KKS	Q9SEI0	AT5G14750	MYB66, WER, WER1, WEREWOLF, WEREWOLF 1
+MYB, MYB-related	Helix-turn-helix domains	Tryptophan cluster factors	MYB-related	NA	P92948	AT1G09770	MYBCD5, CDC5, MAC1
+GeBP, Storekeeper	Helix-turn-helix domains	Tryptophan cluster factors	Storekeeper	AF2 model	Q9C517	AT1G66420	AT1G66420
+Trihelix	Helix-turn-helix domains	Tryptophan cluster factors	Trihelix	2JMW	Q9FX53	AT1G13450	GT-1
+AP2	Beta-hairpin exposed by an alpha/beta-scaffold	AP2/EREBP	AP2	7ET4	Q5YGP8	AT3G20840	PLT1, AIL3
+AP2, EREBP, ERF	Beta-hairpin exposed by an alpha/beta-scaffold	AP2/EREBP	ERF/DREB	5WX9	Q9LSX0	AT5G43410	ERF096
+CAMTA, CAMTA-like	Beta-hairpin exposed by an alpha/beta-scaffold	GCM domain factors	CAMTA	AF2 model	Q8GSA7	AT2G22300	CAMTA3, SR1, EICBP1, SARD3
+FAR1, FHY3	Beta-hairpin exposed by an alpha/beta-scaffold	GCM domain factors	FRS/FRF	AF2 model	Q9SWG3	AT4G15090	FAR1
+NAC, NAC/NAM	Beta-hairpin exposed by an alpha/beta-scaffold	GCM domain factors	NAC	3SWP	Q9C932	AT1G52890	NAC019
+VOZ	Beta-hairpin exposed by an alpha/beta-scaffold	GCM domain factors	VOZ	AF2 model	Q9SLB9	AT2G42400	VOZ2
+WRKY	Beta-hairpin exposed by an alpha/beta-scaffold	GCM domain factors	WRKY	2LEX	Q9XI90	AT1G13960	WRKY4
+EIL	Other all-alpha-helical DNA-binding domains	EIL		4ZDS	O23116	AT1G73730	EIL3
+CONSTANS,CO	Other all-alpha-helical DNA-binding domains	Heteromeric CCAAT-binding factors	CONSTANS	7CVQ	Q39057	AT5G15840	CO, CONSTANS
+CCAAT, HAP3, NF-YB	Other all-alpha-helical DNA-binding domains	Heteromeric CCAAT-binding factors	NF-YA	6R2V	B9DGV8	AT5G12840	NF-YA1
+YABBY, C2C2-YABBY, C2C2_YABBY	Other all-alpha-helical DNA-binding domains	High-mobility group (HMG) domain factors	YABBY	AF2 model	Q8L925	AT1G69180	CRC
+A.T hook, AT hook	Beta-sheet binding to DNA	A.T hook factors	AHL	NA	Q8LPN5	AT1G63480	AHL12
+HMGA	Beta-sheet binding to DNA	A.T hook factors	HMGA	3UXW	Q43386	AT1G14900	HMGA
+TCP, bHLH_TCP	Beta-sheet binding to DNA	TCP	TCP	7VP2	Q9C758	AT1G30210	TCP24
+C2H2, C2H2 ZF	Zinc-coordinating DNA-binding domains	C2H2 zinc finger factors	C2H2	1A1F	O81793	AT4G35610	TREE1
+IDD	Zinc-coordinating DNA-binding domains	C2H2 zinc finger factors	IDD	NA	Q9ZWA6	AT1G03840	IDD3, MGP, PSG3
+GRF	Zinc-coordinating DNA-binding domains	C3H zinc finger factors	GRF	AF2 model	Q8S9M3	AT2G45480	GRF9
+SBP, SBP-type zinc finger	Zinc-coordinating DNA-binding domains	C3H(C),C2HC zinc-fingers like factors	SBP	1UL5	Q8S9G8	AT5G18830	SPL7
+ALOG	Zinc-coordinating DNA-binding domains	HC3 zinc ribbon factors	ALOG	8P5Q	Q6NNI3	AT5G28490	LSH1uni
+GATA, Tify	Zinc-coordinating DNA-binding domains	Other C4 zinc finger-type factors	C4-GATA-related	4HC7	Q9M1U2	AT3G45170	GATA14
+DOF, C2C2-Dof, C2C2_Dof	Zinc-coordinating DNA-binding domains	Other C4 zinc finger-type factors	DOF	NA	P68350	AT1G29160	COG1, DOF1.5
+AS2/LOB, LOBAS2	Zinc-coordinating DNA-binding domains	Other C4 zinc finger-type factors	LBD	5LY0	Q9AT61	AT2G30340	LBD13, ASL10
+ARF	Beta-barrel DNA-binding domains	B3	ARF	6YCQ	Q8L7G0	AT1G59750	ARF1
+ABI3VP1, ABI3/VP1, B3	Beta-barrel DNA-binding domains	B3	LAV	6J9C	Q1PFR7	AT1G28300	LEC2
+RAV	Beta-barrel DNA-binding domains	B3	RAV	7RT6	Q9ZWM9	AT1G13260	RAV1
+BES/BZR, BES1	Basic domains	Basic helix-loop-helix factors (bHLH)	BES/BZR	5ZD4	Q8S307	AT1G75080	BZR1, BIS2
+bHLH	Basic domains	Basic helix-loop-helix factors (bHLH)	bHLH	5GNJ	Q8L467	AT4G14410	BHLH104, EN136
+bZIP	Basic domains	Basic leucine zipper factors (bZIP)	bZIP	1NWQ	Q9M7Q4	AT1G45249	ABF2, AREB1
+MADS type I, MADS-Box	Alpha-helices exposed by beta-structures	MADS box factors	Type I	1SRS	Q9C960	AT1G60920	AGL55
+MADS type II, MADS-Box	Alpha-helices exposed by beta-structures	MADS box factors	Type II	1EGW	Q9FVC1	AT2G22540	SVP
+BBR/BPC, BBR-BPC	Yet undefined DNA-binding domains	BBR/BPC		NA	Q9SKD0	AT2G01930	BPC1
+CPP Cysteine-rich polycomb-like protein	Yet undefined DNA-binding domains	CPP		NA	Q9LUI3	AT3G22780	TSO1
+DBP	Yet undefined DNA-binding domains	DBP		NA	Q9SD02	AT3G51470	Protein phosphatase 2C family protein
+GRAS	Yet undefined DNA-binding domains	GRAS		NA	Q8GXW1	AT3G03450	RGL2
+PLATZ	Yet undefined DNA-binding domains	PLATZ		NA	A8MQN6	AT2G01818	AtPLATZ6
+S1Fa1, S1Fa-like	Yet undefined DNA-binding domains	S1Fa-like		NA	Q93VI0	AT3G09735	S1FA3
