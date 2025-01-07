@@ -56,7 +56,7 @@ doi: [10.1007/978-1-4939-6396-6_17](https://doi.org/10.1007/978-1-4939-6396-6_17
 
   - If you need to convert a PNG logo check https://www.biostars.org/p/9537076/#9607522 followed by:
 
-      cat enoLogo.txt | perl -lne 'next if(/^#/ || /^P/); s/^([ACGT])/$1:/; tr/AT/TA/; push(@pwm,"$_\n"); END{ print sort(@pwm)}'
+      cat enoLogo.txt | perl -lne 'if(/^([ACGT])/){ s/^([ACGT])/$1:/; tr/AT/TA/; s/(\d+\.\d{3})\d+/$1/g; push(@pwm,"$_\n")} END{ print sort(@pwm)}'
 
 * Add individual sites, if any, to [sites.tab](./sites.tab).
 
